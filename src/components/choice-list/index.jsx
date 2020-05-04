@@ -14,7 +14,7 @@ const columns = {
 const ChoiceCardList = ({ choices, width }) => {
   console.log(choices.toJS());
   return (
-    <GridList cols={columns[width]}>
+    <GridList cols={columns[width]} cellHeight="auto">
       {map(choices.toJS(), (choice, index) => {
         return (
           <GridListTile key={choice.title}>

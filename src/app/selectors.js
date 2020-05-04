@@ -36,3 +36,7 @@ export const getOpeningOutline = createSelector(getOutline, (outline) => {
 export const getGenderOutline = createSelector(getOutline, (outline) => {
   return outline.get("gender");
 });
+
+export const getCircumstancesOutline = createSelector(getOutline, (outline) => {
+  return outline.get("circumstances");
+});
