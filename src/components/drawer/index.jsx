@@ -5,10 +5,10 @@ import { connect } from "react-redux";
 import { getSections, getSectionsFormattedTitle } from "../../app/selectors";
 
 const NavigationDrawer = ({
-  sections,
   formattedSections,
-  open,
   handleBackgroundClick,
+  open,
+  sections,
 }) => {
   return (
     <Drawer
@@ -27,10 +27,10 @@ const NavigationDrawer = ({
 };
 
 NavigationDrawer.defaultProps = {
-  open: true,
   formattedSections: [],
-  sections: [],
   handleBackgroundClick: () => null,
+  open: true,
+  sections: [],
 };
 
 const mapStateToProps = (state) => ({

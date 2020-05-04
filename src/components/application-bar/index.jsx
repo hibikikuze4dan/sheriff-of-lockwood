@@ -12,7 +12,7 @@ import { getPoints } from "../../app/selectors";
 
 const ApplicationBar = ({ points, handleIconButtonClick, open }) => {
   return (
-    <AppBar>
+    <AppBar position="static">
       <Toolbar>
         <Grid container justify="space-between">
           <IconButton onClick={() => handleIconButtonClick(!open)}>
@@ -26,9 +26,9 @@ const ApplicationBar = ({ points, handleIconButtonClick, open }) => {
 };
 
 ApplicationBar.defaultProps = {
-  points: 0,
   handleIconButtonClick: () => null,
   open: false,
+  points: 0,
 };
 
 const mapStateToProps = (state) => ({
