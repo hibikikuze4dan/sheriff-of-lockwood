@@ -10,6 +10,8 @@ import {
 import "./App.css";
 import cyoaText from "./data";
 import Navigator from "./components/navigation";
+import OpeningPage from "./components/pages/opening";
+import GenderPage from "./components/pages/gender";
 import { getOutline, getSections, getPoints } from "./app/selectors";
 
 function App() {
@@ -18,8 +20,12 @@ function App() {
       <Router>
         <Navigator />
         <Switch>
-          <Route path="/opening">4</Route>
-          <Route path="/gender">45</Route>
+          <Route path="/opening">
+            <OpeningPage />
+          </Route>
+          <Route path="/gender">
+            <GenderPage />
+          </Route>
           <Route render={() => <Redirect to="/opening" />} />
         </Switch>
       </Router>

@@ -17,7 +17,11 @@ const NavigationDrawer = ({
     >
       {formattedSections.map((section, index) => {
         return (
-          <Button component={Link} to={sections[index]}>
+          <Button
+            key={`drawer-link-${index + 1}-${section}`}
+            component={Link}
+            to={sections[index]}
+          >
             <Typography>{section}</Typography>
           </Button>
         );

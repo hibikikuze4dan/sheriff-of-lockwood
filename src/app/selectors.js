@@ -15,7 +15,7 @@ export const getSections = createSelector(getOutline, (outline) => {
     accumulator.push(key);
     return accumulator;
   }, []);
-  console.log(sections);
+  console.log(outline.toJS());
   return sections;
 });
 
@@ -28,3 +28,11 @@ export const getSectionsFormattedTitle = createSelector(
     return formattedSections;
   }
 );
+
+export const getOpeningOutline = createSelector(getOutline, (outline) => {
+  return outline.get("opening");
+});
+
+export const getGenderOutline = createSelector(getOutline, (outline) => {
+  return outline.get("gender");
+});

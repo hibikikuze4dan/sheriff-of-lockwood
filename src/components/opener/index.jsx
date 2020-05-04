@@ -10,7 +10,7 @@ const Opener = ({ title, subtext }) => {
           <Interweave content={title} />
         </Typography>
       </Grid>
-      <Divider />
+      <Divider style={{ width: "100%" }} />
       <Grid item xs={12}>
         <Typography>
           <Interweave content={subtext} />
