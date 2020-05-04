@@ -4,9 +4,9 @@ import { Grid } from "@material-ui/core";
 import Opener from "../../opener";
 import ChoiceList from "../../choice-list";
 import { connect } from "react-redux";
-import { getCircumstancesOutline } from "../../../app/selectors";
+import { getSkillsOutline } from "../../../app/selectors";
 
-const CircumstancesPage = ({ data }) => {
+const SkillsPage = ({ data }) => {
   console.log(data.toJS());
   return (
     <Grid>
@@ -17,7 +17,7 @@ const CircumstancesPage = ({ data }) => {
 };
 
 const mapStateToProps = (state) => ({
-  data: getCircumstancesOutline(state),
+  data: getSkillsOutline(state),
 });
 
-export default connect(mapStateToProps)(CircumstancesPage);
+export default connect(mapStateToProps)(SkillsPage);

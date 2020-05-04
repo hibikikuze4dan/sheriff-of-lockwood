@@ -40,3 +40,15 @@ export const getGenderOutline = createSelector(getOutline, (outline) => {
 export const getCircumstancesOutline = createSelector(getOutline, (outline) => {
   return outline.get("circumstances");
 });
+
+export const getTreatmentOutline = createSelector(getOutline, (outline) => {
+  return outline.get("treatment");
+});
+
+export const getArmamentsOutline = createSelector(getOutline, (outline) => {
+  return outline.get("armaments");
+});
+
+export const getSkillsOutline = createSelector(getOutline, (outline) => {
+  return outline.get("skills");
+});

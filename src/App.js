@@ -13,6 +13,9 @@ import Navigator from "./components/navigation";
 import OpeningPage from "./components/pages/opening";
 import GenderPage from "./components/pages/gender";
 import CircumstancesPage from "./components/pages/circumstances";
+import TreatmentPage from "./components/pages/treatment";
+import ArmamentsPage from "./components/pages/armaments";
+import SkillsPage from "./components/pages/skills";
 import { getOutline, getSections, getPoints } from "./app/selectors";
 
 function App() {
@@ -31,13 +34,13 @@ function App() {
             <CircumstancesPage />
           </Route>
           <Route path="/treatment">
-            <GenderPage />
+            <TreatmentPage />
           </Route>
           <Route path="/armaments">
-            <GenderPage />
+            <ArmamentsPage />
           </Route>
           <Route path="/skills">
-            <GenderPage />
+            <SkillsPage />
           </Route>
           <Route path="/mounts">
             <GenderPage />
