@@ -1,23 +1,34 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
+import { connect } from "react-redux";
 
 import Opener from "../../opener";
 import ChoiceList from "../../choice-list";
-import { connect } from "react-redux";
-import { getCircumstancesOutline } from "../../../app/selectors";
+import {
+  getCircumstancesOutline,
+  getCircumstancesChoices,
+} from "../../../app/selectors";
+import { updateCircumstances } from "../../../app/actions";
 
-const CircumstancesPage = ({ data }) => {
+const CircumstancesPage = ({ data, updateCircumstances, decisions }) => {
   console.log(data.toJS());
   return (
     <Grid>
       <Opener title={data.get("title")} subtext={data.get("subtitle")} />
-      <ChoiceList choices={data.get("choices")} />
+      <ChoiceList
+        choices={data.get("choices")}
+        handleClick={updateCircumstances}
+        decisions={decisions.toJS()}
+      />
     </Grid>
   );
 };
 
 const mapStateToProps = (state) => ({
   data: getCircumstancesOutline(state),
+  decisions: getCircumstancesChoices(state),
 });
 
-export default connect(mapStateToProps)(CircumstancesPage);
+export default connect(mapStateToProps, { updateCircumstances })(
+  CircumstancesPage
+);

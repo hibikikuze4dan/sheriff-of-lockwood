@@ -16,6 +16,11 @@ import CircumstancesPage from "./components/pages/circumstances";
 import TreatmentPage from "./components/pages/treatment";
 import ArmamentsPage from "./components/pages/armaments";
 import SkillsPage from "./components/pages/skills";
+import MountsPage from "./components/pages/mounts";
+import DeputiesPage from "./components/pages/deputies";
+import OfficePage from "./components/pages/office";
+import DrawbacksPage from "./components/pages/drawbacks";
+import EventsPage from "./components/pages/events";
 import { getOutline, getSections, getPoints } from "./app/selectors";
 
 function App() {
@@ -43,19 +48,19 @@ function App() {
             <SkillsPage />
           </Route>
           <Route path="/mounts">
-            <GenderPage />
+            <MountsPage />
           </Route>
           <Route path="/deputies">
-            <GenderPage />
+            <DeputiesPage />
           </Route>
           <Route path="/office">
-            <GenderPage />
+            <OfficePage />
           </Route>
           <Route path="/drawbacks">
-            <GenderPage />
+            <DrawbacksPage />
           </Route>
           <Route path="/events">
-            <GenderPage />
+            <EventsPage />
           </Route>
           <Route render={() => <Redirect to="/opening" />} />
         </Switch>

@@ -1,7 +1,7 @@
 import React from "react";
 import ChoiceCard from "../choice-card";
 import { GridList, GridListTile, withWidth } from "@material-ui/core";
-import { map } from "lodash";
+import { map, includes } from "lodash";
 
 const columns = {
   xs: 1,
@@ -11,14 +11,18 @@ const columns = {
   xl: 3,
 };
 
-const ChoiceCardList = ({ choices, width }) => {
-  console.log(choices.toJS());
+const ChoiceCardList = ({ choices, decisions, width, handleClick }) => {
   return (
     <GridList cols={columns[width]} cellHeight="auto">
       {map(choices.toJS(), (choice, index) => {
+        console.log(choice);
         return (
           <GridListTile key={choice.title}>
-            <ChoiceCard choice={choice} />
+            <ChoiceCard
+              choice={choice}
+              handleClick={handleClick}
+              picked={includes(decisions, choice.title)}
+            />
           </GridListTile>
         );
       })}
@@ -28,6 +32,7 @@ const ChoiceCardList = ({ choices, width }) => {
 
 ChoiceCardList.defaultProps = {
   choices: [],
+  handleClick: () => null,
 };
 
 export default withWidth()(ChoiceCardList);

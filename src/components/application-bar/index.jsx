@@ -12,7 +12,7 @@ import { getPoints } from "../../app/selectors";
 
 const ApplicationBar = ({ points, handleIconButtonClick, open }) => {
   return (
-    <AppBar position="static">
+    <AppBar position="sticky">
       <Toolbar>
         <Grid container justify="space-between">
           <IconButton onClick={() => handleIconButtonClick(!open)}>

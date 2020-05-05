@@ -4,20 +4,25 @@ import { Grid } from "@material-ui/core";
 import Opener from "../../opener";
 import ChoiceList from "../../choice-list";
 import { connect } from "react-redux";
-import { getGenderOutline } from "../../../app/selectors";
+import { getGenderOutline, getGenderChoices } from "../../../app/selectors";
+import { updateGender } from "../../../app/actions";
 
-const GenderPage = ({ data }) => {
-  console.log(data.toJS());
+const GenderPage = ({ data, updateGender, decisions }) => {
   return (
     <Grid>
       <Opener title={data.get("title")} subtext={data.get("subtitle")} />
-      <ChoiceList choices={data.get("choices")} />
+      <ChoiceList
+        choices={data.get("choices")}
+        handleClick={updateGender}
+        decisions={decisions.toJS()}
+      />
     </Grid>
   );
 };
 
 const mapStateToProps = (state) => ({
   data: getGenderOutline(state),
+  decisions: getGenderChoices(state),
 });
 
-export default connect(mapStateToProps)(GenderPage);
+export default connect(mapStateToProps, { updateGender })(GenderPage);

@@ -169,7 +169,7 @@
         "cost": 3,
         "unique": false,
         "requirements": {
-          "circumstance": "Brigand"
+          "circumstances": "Brigand"
         }
       },
       {
@@ -225,7 +225,7 @@
         "cost": 4,
         "unique": false,
         "requirements": {
-          "circumstance": "Brigand"
+          "circumstances": "Brigand"
         }
       },
       {
@@ -281,7 +281,7 @@
         "cost": 4,
         "unique": false,
         "requirements": {
-          "circumstance": "Brigand"
+          "circumstances": "Brigand"
         }
       },
       {
@@ -328,7 +328,7 @@
         "cost": 0,
         "unique": true,
         "requirements": {
-          "circumstance": "Famous Gunslinger"
+          "circumstances": "Famous Gunslinger"
         }
       },
       {
@@ -339,7 +339,7 @@
         "cost": 5,
         "unique": true,
         "requirements": {
-          "circumstance": "Brigand"
+          "circumstances": "Brigand"
         }
       }
     ]
@@ -355,7 +355,7 @@
         "cost": 2,
         "requirements": null,
         "free": {
-          "circumstance": "Lawbringer"
+          "circumstances": "Lawbringer"
         }
       },
       {
@@ -381,7 +381,7 @@
         "cost": 4,
         "requirements": null,
         "free": {
-          "circumstance": "Famous Gunslinger"
+          "circumstances": "Famous Gunslinger"
         }
       },
       {
@@ -399,7 +399,7 @@
         "cost": 3,
         "requirements": null,
         "free": {
-          "circumstance": "Famous Showman"
+          "circumstances": "Famous Showman"
         }
       },
       {
@@ -433,7 +433,7 @@
         "cost": 3,
         "requirements": null,
         "free": {
-          "circumstance": "Ex-Military"
+          "circumstances": "Ex-Military"
         }
       },
       {
@@ -442,10 +442,10 @@
         "text": "I’ve seen your psych reports. You don’t feel anything for killing people. Men, women, children... Oh that’s right, we scanned your memories. You’re one sick fuck, you do dirty work just the same as you’d do the dishes. I wouldn’t let a ruthless monster like you with in a mile of these civilized honest people... but despite times call for despite measures. It just had to be you of all the people in galaxy...",
         "cost": 0,
         "requirements": {
-          "circumstance": "Brigand"
+          "circumstances": "Brigand"
         },
         "free": {
-          "circumstance": "Brigand"
+          "circumstances": "Brigand"
         }
       },
       {
@@ -502,7 +502,9 @@
         "title": "Assault Mech",
         "text": "(Shuffles through papers and picks one up.) You know Anon, that’s a mighty fine... crop harvester you’ve got their! But you know if I squinted my eyes a certain way, I might think that that was A CL ASS FOUR ASSAULT MECH! How in the hell did you even manage to get this? I can tell it’s a retro fitted Goliath class, but you probably tore out all the military systems and put in your own shitty bootleg pirate ones. Well I’m authorized to put three Heavy weapon class weapons on this thing, plus two Medium class point defenses, and these high yield rocket pods. You’re getting twenty of these rockets and that’s it, no fabrication plans for these. I hope this thing malfunctions and kills you.",
         "cost": 7,
-        "requirements": null
+        "requirements": {
+          "circumstances": "Brigand"
+        }
       }
     ]
   },
@@ -563,7 +565,7 @@
         "text": "Sigh... So here's your shit stain second in command. You can get her this colony deal to if you like. I've never in my life met someone more brash or loud. How did you ever control someone so bratty or impulsive? Well actually, based on the memory scan we did of her, she’s got some kind of twisted codependent attachment to you. She calms right down when you're around, wants to follow you like a puppy, and if you ordered her to throw her life away she'd do it. So was it drugs, torture, mind alteration? Or did to two star-crossed broken souls make a beautiful connection? How sweet for you two. If you don’t take her she’ll be executed, so let's sec if you still have a heart in there somewhere you monster. <br>Minx will come with a modified, more explosive Launcher, and two Skullfuckers.",
         "cost": 4,
         "requirements": {
-          "circumstance": "Brigand"
+          "circumstances": "Brigand"
         }
       }
     ]
@@ -642,7 +644,9 @@
         "title": "AA-Walker",
         "text": "Well we’re already basically breaking the law by having the Assault Mech, so might as well bring in your fucking AA-Walker. 1 hear they had to send in special forces to disable this thing before they could send in the cavalry to arrest you Otherwise you would have just blown them all out of the air. While I will say it'll be nice for you to have a back up to the town’s AA system, this one being mobile too, giving you even more options With that armor it's a tough nut to crack, and while it’s not the fastest mech, it can still probably out run you. We can mount two Medium class weapons as point defense, otherwise you wouldn’t be able to hit ground targets. We can also retrofit your missile system to be the same as the town’s direct energy so you won't have to worry about ammo. I'll give you a pass on this one because it directly benefits the colony, just don’t push your luck.",
         "cost": 6,
-        "requirements": null
+        "requirements": {
+          "circumstances": "Brigand"
+        }
       }
     ]
   },
@@ -684,7 +688,10 @@
         "title": "Bomb Collar",
         "text": "You didn’t think we’d just let you loose with all this stuff and trust your good will did you? This is our insurance policy. If you go rogue, it blows up. If you tamper with it, it blows up. If we feel like you’ve stepped to far out of line, it blows up. So unless you want your head to hit the ceiling Campbell’s Extra Chunky style, you’ll do well to remember you’re on a leash. A short leash. Do your job, and maybe we’ll take it off.",
         "cost": 0,
-        "requirements": null
+        "requirements": {
+          "circumstances": "Brigand"
+        },
+        "required": true
       }
     ]
   },
