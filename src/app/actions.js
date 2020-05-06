@@ -43,3 +43,27 @@ export function updateDeputies(choice, picked) {
   };
   return { type: "UPDATE_DEPUTIES", payload: fromJS(payload) };
 }
+
+export function updateOffice(choice, picked) {
+  const payload = {
+    choice,
+    picked,
+  };
+  return { type: "UPDATE_OFFICE", payload: fromJS(payload) };
+}
+
+export function updateDrawbacks(choice, picked) {
+  const payload = {
+    choice,
+    picked,
+  };
+  return { type: "UPDATE_DRAWBACKS", payload: fromJS(payload) };
+}
+
+export function updateEvents(choice, picked) {
+  const payload = {
+    choice,
+    picked,
+  };
+  return { type: "UPDATE_EVENTS", payload: fromJS(payload) };
+}

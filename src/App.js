@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 
 import "./App.css";
-import cyoaText from "./data";
 import Navigator from "./components/navigation";
 import OpeningPage from "./components/pages/opening";
 import GenderPage from "./components/pages/gender";
@@ -21,7 +20,7 @@ import DeputiesPage from "./components/pages/deputies";
 import OfficePage from "./components/pages/office";
 import DrawbacksPage from "./components/pages/drawbacks";
 import EventsPage from "./components/pages/events";
-import { getOutline, getSections, getPoints } from "./app/selectors";
+import { getSections, getPoints } from "./app/selectors";
 
 function App() {
   return (

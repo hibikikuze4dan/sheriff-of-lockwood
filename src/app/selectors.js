@@ -6,7 +6,7 @@ export const getChoices = (state) => state.get("choices");
 
 export const getOutline = (state) => state.get("outline");
 
-export const getPoints = (state) => state.get("points");
+export const getPoints = (state) => state.get("currentPoints");
 
 export const getSections = createSelector(getOutline, (outline) => {
   const sections = outline.reduce((acc, value, key) => {
@@ -95,10 +95,22 @@ export const getOfficeOutline = createSelector(getOutline, (outline) => {
   return outline.get("office");
 });
 
+export const getOfficeChoices = createSelector(getChoices, (choices) => {
+  return choices.get("office").map((val) => val.get("title"));
+});
+
 export const getDrawbacksOutline = createSelector(getOutline, (outline) => {
   return outline.get("drawbacks");
 });
 
+export const getDrawbacksChoices = createSelector(getChoices, (choices) => {
+  return choices.get("drawbacks").map((val) => val.get("title"));
+});
+
 export const getEventsOutline = createSelector(getOutline, (outline) => {
   return outline.get("events");
+});
+
+export const getEventsChoices = createSelector(getChoices, (choices) => {
+  return choices.get("events").map((val) => val.get("title"));
 });

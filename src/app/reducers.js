@@ -4,6 +4,8 @@ import {
   updateSingleChoiceSection,
   updateMultiChoiceSection,
   deduplicateArmaments,
+  removeUnmetRequirements,
+  applyCosts,
 } from "./utils";
 
 const defaultChoices = {
@@ -41,19 +43,53 @@ export function rootReducer(state = initialState, action) {
   if (action.type === "UPDATE_GENDER") {
     return updateSingleChoiceSection(state, "gender", action.payload);
   } else if (action.type === "UPDATE_CIRCUMSTANCES") {
-    return updateSingleChoiceSection(state, "circumstances", action.payload);
+    return applyCosts(
+      removeUnmetRequirements(
+        updateSingleChoiceSection(state, "circumstances", action.payload)
+      )
+    );
   } else if (action.type === "UPDATE_TREATMENT") {
     return updateSingleChoiceSection(state, "treatment", action.payload);
   } else if (action.type === "UPDATE_ARMAMENTS") {
-    return deduplicateArmaments(
-      updateMultiChoiceSection(state, "armaments", action.payload)
+    return applyCosts(
+      removeUnmetRequirements(
+        deduplicateArmaments(
+          updateMultiChoiceSection(state, "armaments", action.payload)
+        )
+      )
     );
   } else if (action.type === "UPDATE_SKILLS") {
-    return updateMultiChoiceSection(state, "skills", action.payload);
+    return applyCosts(
+      removeUnmetRequirements(
+        updateMultiChoiceSection(state, "skills", action.payload)
+      )
+    );
   } else if (action.type === "UPDATE_MOUNTS") {
-    return updateMultiChoiceSection(state, "mounts", action.payload);
+    return applyCosts(
+      removeUnmetRequirements(
+        updateMultiChoiceSection(state, "mounts", action.payload)
+      )
+    );
   } else if (action.type === "UPDATE_DEPUTIES") {
-    return updateMultiChoiceSection(state, "deputies", action.payload);
+    return applyCosts(
+      removeUnmetRequirements(
+        updateMultiChoiceSection(state, "deputies", action.payload)
+      )
+    );
+  } else if (action.type === "UPDATE_OFFICE") {
+    return applyCosts(
+      removeUnmetRequirements(
+        updateMultiChoiceSection(state, "office", action.payload)
+      )
+    );
+  } else if (action.type === "UPDATE_DRAWBACKS") {
+    return applyCosts(
+      removeUnmetRequirements(
+        updateMultiChoiceSection(state, "drawbacks", action.payload)
+      )
+    );
+  } else if (action.type === "UPDATE_EVENTS") {
+    return updateMultiChoiceSection(state, "events", action.payload);
   }
   return state;
 }
