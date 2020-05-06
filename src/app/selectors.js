@@ -63,16 +63,32 @@ export const getArmamentsOutline = createSelector(getOutline, (outline) => {
   return outline.get("armaments");
 });
 
+export const getArmamentsChoices = createSelector(getChoices, (choices) => {
+  return choices.get("armaments").map((val) => val.get("title"));
+});
+
 export const getSkillsOutline = createSelector(getOutline, (outline) => {
   return outline.get("skills");
+});
+
+export const getSkillsChoices = createSelector(getChoices, (choices) => {
+  return choices.get("skills").map((val) => val.get("title"));
 });
 
 export const getMountsOutline = createSelector(getOutline, (outline) => {
   return outline.get("mounts");
 });
 
+export const getMountsChoices = createSelector(getChoices, (choices) => {
+  return choices.get("mounts").map((val) => val.get("title"));
+});
+
 export const getDeputiesOutline = createSelector(getOutline, (outline) => {
   return outline.get("deputies");
+});
+
+export const getDeputiesChoices = createSelector(getChoices, (choices) => {
+  return choices.get("deputies").map((val) => val.get("title"));
 });
 
 export const getOfficeOutline = createSelector(getOutline, (outline) => {

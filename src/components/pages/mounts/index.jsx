@@ -4,20 +4,26 @@ import { Grid } from "@material-ui/core";
 import Opener from "../../opener";
 import ChoiceList from "../../choice-list";
 import { connect } from "react-redux";
-import { getMountsOutline } from "../../../app/selectors";
+import { getMountsOutline, getMountsChoices } from "../../../app/selectors";
+import { updateMounts } from "../../../app/actions";
 
-const MountsPage = ({ data }) => {
+const MountsPage = ({ data, updateMounts, decisions }) => {
   console.log(data.toJS());
   return (
     <Grid>
       <Opener title={data.get("title")} subtext={data.get("subtitle")} />
-      <ChoiceList choices={data.get("choices")} />
+      <ChoiceList
+        choices={data.get("choices")}
+        decisions={decisions.toJS()}
+        handleClick={updateMounts}
+      />
     </Grid>
   );
 };
 
 const mapStateToProps = (state) => ({
   data: getMountsOutline(state),
+  decisions: getMountsChoices(state),
 });
 
-export default connect(mapStateToProps)(MountsPage);
+export default connect(mapStateToProps, { updateMounts })(MountsPage);

@@ -12,11 +12,13 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
   const unique = choice?.unique;
 
   let costSection = null;
-  if (cost) {
+  if (cost || cost === 0) {
     if (cost > 0) {
       costSection = <Typography>{`(Cost: ${cost})`}</Typography>;
-    } else {
+    } else if (cost < 0) {
       costSection = <Typography>{`(Gain: ${Math.abs(cost)})`}</Typography>;
+    } else {
+      costSection = <Typography>{`(Free)`}</Typography>;
     }
   }
 
@@ -31,7 +33,7 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
     <Button
       style={{ backgroundColor: picked ? "green" : "white" }}
       component={Card}
-      onClick={() => handleClick(choice)}
+      onClick={() => handleClick(choice, picked)}
     >
       <Grid container>
         <Grid item xs={12}>
