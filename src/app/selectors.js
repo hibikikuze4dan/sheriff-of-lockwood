@@ -1,10 +1,13 @@
 import { createSelector } from "reselect";
 
 import { makeFirstLetterUppercase } from "./utils";
+import { fromJS } from "immutable";
 
 export const getChoices = (state) => state.get("choices");
 
 export const getOutline = (state) => state.get("outline");
+
+export const getDefaultPoints = (state) => state.get("points");
 
 export const getPoints = (state) => state.get("currentPoints");
 
@@ -113,4 +116,39 @@ export const getEventsOutline = createSelector(getOutline, (outline) => {
 
 export const getEventsChoices = createSelector(getChoices, (choices) => {
   return choices.get("events").map((val) => val.get("title"));
+});
+
+export const getSpendingBreakdown = createSelector(
+  [getDefaultPoints, getChoices],
+  (points, choices) => {
+    let modifyPoints = points;
+    const breakdown = choices
+      .map((section) => {
+        return section.map((choice) => {
+          const cost = choice.get("cost", 0);
+          const returnObj = fromJS({
+            title: choice.get("title"),
+            cost,
+            prev: modifyPoints,
+            curr: modifyPoints - cost,
+          });
+          modifyPoints = modifyPoints - cost;
+          return returnObj;
+        });
+      })
+      .reduce((acc, section) => {
+        const accumulator = acc;
+        accumulator.push(section.toJS());
+        return accumulator;
+      }, []);
+    return breakdown;
+  }
+);
+
+export const getChoicesSections = createSelector(getChoices, (choices) => {
+  return choices.reduce((acc, cur, key) => {
+    const accumulator = acc;
+    accumulator.push(makeFirstLetterUppercase(key));
+    return accumulator;
+  }, []);
 });

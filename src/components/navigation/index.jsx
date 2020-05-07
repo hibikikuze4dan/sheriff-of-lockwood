@@ -5,9 +5,16 @@ import Drawer from "../drawer";
 
 const Navigator = () => {
   const [open, toggleDrawer] = useState(false);
+  const [openDialog, toggleDialog] = useState(false);
+
   return (
     <span>
-      <AppBar handleIconButtonClick={toggleDrawer} open={open} />
+      <AppBar
+        handleIconButtonClick={toggleDrawer}
+        handleDialogToggle={toggleDialog}
+        open={open}
+        openDialog={openDialog}
+      />
       <Drawer handleBackgroundClick={toggleDrawer} open={open} />
     </span>
   );

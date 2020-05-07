@@ -467,7 +467,10 @@
         "title": "S-Horse",
         "text": "A genetically engineered super horse. Has all the best traits a horse could possibly have thanks to genetic manipulation. It’s stronger, faster, and better trained than any horse you’ve ever seen. It also has new regenerative powers that let it heal from any none fatal injury, including broken legs. Just remember that no matter how good a horse it is, it is still a biological horse. Take care of them. You get five S-Horses.",
         "cost": 2,
-        "requirements": null
+        "requirements": null,
+        "free": {
+          "circumstances": "Regular Old Joe"
+        }
       },
       {
         "id": 1,

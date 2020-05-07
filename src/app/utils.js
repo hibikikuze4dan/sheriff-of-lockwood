@@ -56,6 +56,14 @@ export const updateMultiChoiceSection = (state, choiceType, update) => {
   return state.set("choices", updatedChoices);
 };
 
+export const getCircumstance = (state) => {
+  return state
+    .get("choices")
+    .get("circumstances")
+    .get(0, new Map())
+    .get("title", "");
+};
+
 export const deduplicateArmaments = (state) => {
   const stateChoices = state.get("choices");
   const choices = stateChoices.get("armaments");
@@ -123,8 +131,97 @@ const checkIfFree = (choice, state) => {
   return relevantChoices.includes(free.get(freeKey));
 };
 
-export const applyCosts = (state) => {
+export const lawbringerModifier = (state) => {
   const stateChoices = state.get("choices");
+  const officeChoices = stateChoices
+    .get("office")
+    .map((choice) => choice.set("cost", choice.get("cost") - 1));
+  const updatedChoices = stateChoices.set("office", officeChoices);
+  return state.set("choices", updatedChoices);
+};
+
+export const regularOldJoeModifier = (state) => {
+  const stateChoices = state.get("choices");
+  let armamentDiscountApplied = false;
+  const armamentsChoices = stateChoices
+    .get("armaments")
+    .sort((a, b) => {
+      if (a.get("cost") < b.get("cost")) {
+        return -1;
+      }
+      if (a.get("cost") > b.get("cost")) {
+        return 1;
+      }
+      if (a.get("cost") === b.get("cost")) {
+        return 0;
+      }
+    })
+    .reverse()
+    .map((choice) => {
+      if (armamentDiscountApplied) {
+        return choice;
+      }
+      const applyDiscount = choice.get("weight") === "Light";
+      if (applyDiscount && !armamentDiscountApplied) {
+        armamentDiscountApplied = true;
+        return choice.set("cost", 0);
+      }
+      return choice;
+    });
+  let skillDiscountApplied = false;
+  const skillsChoices = stateChoices
+    .get("skills")
+    .sort((a, b) => {
+      if (a.get("cost") < b.get("cost")) {
+        return -1;
+      }
+      if (a.get("cost") > b.get("cost")) {
+        return 1;
+      }
+      if (a.get("cost") === b.get("cost")) {
+        return 0;
+      }
+    })
+    .reverse()
+    .map((choice) => {
+      if (skillDiscountApplied) {
+        return choice;
+      }
+      if (!skillDiscountApplied) {
+        skillDiscountApplied = true;
+        return choice.set("cost", 0);
+      }
+      return choice;
+    });
+  const drawbacksChoices = stateChoices.get("drawbacks").map((choice) => {
+    return choice.set("cost", choice.get("cost") + -1);
+  });
+  const updatedChoices = stateChoices
+    .set("armaments", armamentsChoices)
+    .set("skills", skillsChoices)
+    .set("drawbacks", drawbacksChoices);
+  return state.set("choices", updatedChoices);
+};
+
+const applyCircumstanceModifier = (circumstance, state) => {
+  const modifiers = {
+    Lawbringer: lawbringerModifier,
+    "Regular Old Joe": regularOldJoeModifier,
+  };
+  const func = modifiers[circumstance] ? modifiers[circumstance] : (val) => val;
+  return func(state);
+};
+
+export const applyCosts = (state) => {
+  const circumstance = getCircumstance(state);
+  let stateChoices = null;
+  if (circumstance) {
+    stateChoices = applyCircumstanceModifier(circumstance, state).get(
+      "choices"
+    );
+  } else {
+    stateChoices = state.get("choices");
+  }
   const pointModifier = stateChoices.reduce((acc, section) => {
     const sectionPoints = section.reduce((acc2, curr) => {
       const cost = checkIfFree(curr, state) ? 0 : curr.get("cost", 0);
