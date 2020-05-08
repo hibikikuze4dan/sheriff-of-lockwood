@@ -47,10 +47,31 @@ const cardStyles = makeStyles({
   },
 });
 
+const openerStyles = makeStyles({
+  title: {
+    fontSize: "2rem",
+    fontWeight: "bold",
+  },
+  description: {
+    paddingBottom: "16px",
+  },
+});
+
+const drawerStyles = makeStyles({
+  drawer: {
+    backgroundColor: "#ECD078",
+  },
+  selectedButton: {
+    backgroundColor: "#D95B43",
+  },
+});
+
 export default {
   applicationBarStyles,
   appStyles,
   dialogStyles,
   gridWrapperStyles,
   cardStyles,
+  openerStyles,
+  drawerStyles,
 };

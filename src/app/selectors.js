@@ -11,6 +11,8 @@ export const getDefaultPoints = (state) => state.get("points");
 
 export const getPoints = (state) => state.get("currentPoints");
 
+export const getLocation = (state) => state.get("location");
+
 export const getSections = createSelector(getOutline, (outline) => {
   const sections = outline.reduce((acc, value, key) => {
     if (key === "title") {

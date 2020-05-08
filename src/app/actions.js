@@ -1,5 +1,10 @@
 import { fromJS } from "immutable";
 
+export const updateLocation = (location) => ({
+  type: "UPDATE_LOCATION",
+  payload: location,
+});
+
 export function updateGender(choice) {
   return { type: "UPDATE_GENDER", payload: fromJS([choice]) };
 }

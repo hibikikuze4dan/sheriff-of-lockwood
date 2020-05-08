@@ -27,6 +27,7 @@ const initialState = fromJS(
     points: 25,
     choices: defaultChoices,
     currentPoints: 25,
+    location: window.location.href.split("/").pop(),
   },
   (key, value) => {
     if (key === "choices" || key === "outline") {
@@ -92,6 +93,8 @@ export function rootReducer(state = initialState, action) {
     );
   } else if (action.type === "UPDATE_EVENTS") {
     return updateMultiChoiceSection(state, "events", action.payload);
+  } else if (action.type === "UPDATE_LOCATION") {
+    return state.set("location", action.payload);
   }
   return state;
 }
