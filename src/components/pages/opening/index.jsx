@@ -1,14 +1,15 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
+import styles from "../../../styles";
 
 import Opener from "../../opener";
 import { connect } from "react-redux";
 import { getOpeningOutline } from "../../../app/selectors";
 
 const OpeningPage = ({ data }) => {
-  console.log(data.toJS());
+  const classes = styles.gridWrapperStyles();
   return (
-    <Grid>
+    <Grid className={classes.grid}>
       <Opener title={data.get("title")} subtext={data.get("subtitle")} />
     </Grid>
   );

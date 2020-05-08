@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
+import styles from "../../../styles";
 import { connect } from "react-redux";
 
 import Opener from "../../opener";
@@ -11,9 +12,9 @@ import {
 import { updateCircumstances } from "../../../app/actions";
 
 const CircumstancesPage = ({ data, updateCircumstances, decisions }) => {
-  console.log(data.toJS());
+  const classes = styles.gridWrapperStyles();
   return (
-    <Grid>
+    <Grid className={classes.grid}>
       <Opener title={data.get("title")} subtext={data.get("subtitle")} />
       <ChoiceList
         choices={data.get("choices")}

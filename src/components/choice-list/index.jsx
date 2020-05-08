@@ -13,7 +13,7 @@ const columns = {
 
 const ChoiceCardList = ({ choices, decisions, width, handleClick }) => {
   return (
-    <GridList cols={columns[width]} cellHeight="auto">
+    <GridList cols={columns[width]} cellHeight="auto" spacing={16}>
       {map(choices.toJS(), (choice, index) => {
         console.log(choice);
         return (

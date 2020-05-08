@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
+import styles from "../../../styles";
 
 import Opener from "../../opener";
 import ChoiceList from "../../choice-list";
@@ -8,9 +9,9 @@ import { getMountsOutline, getMountsChoices } from "../../../app/selectors";
 import { updateMounts } from "../../../app/actions";
 
 const MountsPage = ({ data, updateMounts, decisions }) => {
-  console.log(data.toJS());
+  const classes = styles.gridWrapperStyles();
   return (
-    <Grid>
+    <Grid className={classes.grid}>
       <Opener title={data.get("title")} subtext={data.get("subtitle")} />
       <ChoiceList
         choices={data.get("choices")}

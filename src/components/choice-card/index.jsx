@@ -3,8 +3,10 @@ import { Button, Card, Typography, Grid } from "@material-ui/core";
 import Interweave from "interweave";
 
 import { extractRequirements } from "../../app/utils";
+import styles from "../../styles";
 
 const ChoiceCard = ({ handleClick, choice, picked }) => {
+  const classes = styles.cardStyles();
   const cost = choice?.cost;
   const requirements = extractRequirements(choice);
   const required = choice?.required;
@@ -34,10 +36,11 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
       style={{ backgroundColor: picked ? "green" : "white" }}
       component={Card}
       onClick={() => handleClick(choice, picked)}
+      className={classes.button}
     >
       <Grid container>
         <Grid item xs={12}>
-          <Typography>
+          <Typography className={classes.title}>
             <Interweave content={choice.title} />
           </Typography>
           {requirementsSection}
@@ -45,7 +48,7 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
           {weight && <Typography>{`(${weight})`}</Typography>}
         </Grid>
         <Grid item xs={12}>
-          <Typography>
+          <Typography className={classes.description}>
             <Interweave content={choice.text} />
           </Typography>
           {costSection}

@@ -6,6 +6,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+import classNames from "classnames";
 
 import "./App.css";
 import Navigator from "./components/navigation";
@@ -26,7 +27,7 @@ import styles from "./styles";
 function App() {
   const classes = styles.appStyles();
   return (
-    <div className="App" className={classes.div}>
+    <div className={classNames(classes.div, "App")}>
       <Router>
         <Navigator />
         <Switch>

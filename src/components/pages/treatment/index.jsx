@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
+import styles from "../../../styles";
 
 import Opener from "../../opener";
 import ChoiceList from "../../choice-list";
@@ -11,9 +12,9 @@ import {
 import { updateTreatment } from "../../../app/actions";
 
 const TreatmentPage = ({ data, decisions, updateTreatment }) => {
-  console.log(data.toJS());
+  const classes = styles.gridWrapperStyles();
   return (
-    <Grid>
+    <Grid className={classes.grid}>
       <Opener title={data.get("title")} subtext={data.get("subtitle")} />
       <ChoiceList
         choices={data.get("choices")}

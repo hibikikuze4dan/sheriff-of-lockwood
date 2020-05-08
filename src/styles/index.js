@@ -4,6 +4,7 @@ const appStyles = makeStyles({
   div: {
     backgroundColor: "#ECD078",
     textAlign: "center",
+    height: "100%",
   },
 });
 
@@ -26,4 +27,30 @@ const dialogStyles = makeStyles({
   },
 });
 
-export default { applicationBarStyles, appStyles, dialogStyles };
+const gridWrapperStyles = makeStyles({
+  grid: {
+    padding: "16px",
+    backgroundColor: "#ECD078",
+  },
+});
+
+const cardStyles = makeStyles({
+  button: {
+    textTransform: "none",
+  },
+  title: {
+    fontSize: "2rem",
+    fontWeight: "bold",
+  },
+  description: {
+    fontSize: "1rem",
+  },
+});
+
+export default {
+  applicationBarStyles,
+  appStyles,
+  dialogStyles,
+  gridWrapperStyles,
+  cardStyles,
+};
