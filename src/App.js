@@ -28,6 +28,9 @@ function App() {
       <Router>
         <Navigator />
         <Switch>
+          <Route path="/" exact>
+            Hello
+          </Route>
           <Route path="/opening">
             <OpeningPage />
           </Route>
