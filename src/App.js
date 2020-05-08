@@ -21,16 +21,15 @@ import OfficePage from "./components/pages/office";
 import DrawbacksPage from "./components/pages/drawbacks";
 import EventsPage from "./components/pages/events";
 import { getSections, getPoints } from "./app/selectors";
+import styles from "./styles";
 
 function App() {
+  const classes = styles.appStyles();
   return (
-    <div className="App">
+    <div className="App" className={classes.div}>
       <Router>
         <Navigator />
         <Switch>
-          <Route path="/" exact>
-            Hello
-          </Route>
           <Route path="/opening">
             <OpeningPage />
           </Route>

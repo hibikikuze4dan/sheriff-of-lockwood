@@ -14,17 +14,19 @@ import { connect } from "react-redux";
 
 import { getSpendingBreakdown, getChoicesSections } from "../../app/selectors";
 import BreakdownTable from "./breakdown-table";
+import styles from "../../styles";
 
 const ChoicesDialog = ({ open, handleClose, breakdown, sections }) => {
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.only("xs"));
-  console.log(breakdown, sections);
+  const classes = styles.dialogStyles();
   return (
     <Dialog
       fullScreen={fullScreen}
       fullWidth
       open={open}
       onClose={() => handleClose(!open)}
+      classes={{ paper: classes.dialog }}
     >
       <DialogTitle>
         <Grid container justify="space-between">

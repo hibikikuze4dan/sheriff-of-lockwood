@@ -11,6 +11,7 @@ import { connect } from "react-redux";
 import MenuIcon from "@material-ui/icons/Menu";
 import { getPoints } from "../../app/selectors";
 import Dialog from "../dialog";
+import styles from "../../styles";
 
 const ApplicationBar = ({
   points,
@@ -19,14 +20,23 @@ const ApplicationBar = ({
   openDialog,
   handleDialogToggle,
 }) => {
+  const classes = styles.applicationBarStyles();
+
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" className={classes.appBar}>
       <Toolbar>
         <Grid container justify="space-between">
-          <IconButton onClick={() => handleIconButtonClick(!open)}>
+          <IconButton
+            onClick={() => handleIconButtonClick(!open)}
+            className={classes.iconButton}
+          >
             <MenuIcon />
           </IconButton>
-          <Button onClick={() => handleDialogToggle(!openDialog)}>
+          <Button
+            variant="outlined"
+            onClick={() => handleDialogToggle(!openDialog)}
+            className={classes.breakdownButton}
+          >
             Breakdown
           </Button>
           <Typography style={{ alignSelf: "center" }}>{points}</Typography>
