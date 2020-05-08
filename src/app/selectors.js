@@ -1,6 +1,6 @@
 import { createSelector } from "reselect";
 
-import { makeFirstLetterUppercase } from "./utils";
+import { makeFirstLetterUppercase, getCosts } from "./utils";
 import { fromJS } from "immutable";
 
 export const getChoices = (state) => state.get("choices");
@@ -118,8 +118,10 @@ export const getEventsChoices = createSelector(getChoices, (choices) => {
   return choices.get("events").map((val) => val.get("title"));
 });
 
+export const getModifiedChoices = (state) => getCosts(state).get("choices");
+
 export const getSpendingBreakdown = createSelector(
-  [getDefaultPoints, getChoices],
+  [getDefaultPoints, getModifiedChoices],
   (points, choices) => {
     let modifyPoints = points;
     const breakdown = choices

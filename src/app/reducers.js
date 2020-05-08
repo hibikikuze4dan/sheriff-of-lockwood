@@ -45,7 +45,9 @@ export function rootReducer(state = initialState, action) {
   } else if (action.type === "UPDATE_CIRCUMSTANCES") {
     return applyCosts(
       removeUnmetRequirements(
-        updateSingleChoiceSection(state, "circumstances", action.payload)
+        deduplicateArmaments(
+          updateSingleChoiceSection(state, "circumstances", action.payload)
+        )
       )
     );
   } else if (action.type === "UPDATE_TREATMENT") {

@@ -168,6 +168,7 @@
         "text": "One of your little toys I see. I believe the slang for this one was “Skullfucker?” As classy as ever. I will say that I’m impressed however that you brigands learned how to make guns of this quality without a fabricator. This one in particular appears to be an SMG that fires shotgun shells? Oh that’s just real great. Why would you strap a normal pistol in your hostler when you have this abomination?",
         "cost": 3,
         "unique": false,
+        "bo": true,
         "requirements": {
           "circumstances": "Brigand"
         }
@@ -224,6 +225,7 @@
         "text": "Yeah I’d recognize a brigand Assblaster anywhere. This left arm of mine is actually a re-grow; the one God gifted to me got turned into paste by one of these guns. So thanks for owning this. As I’m sure you know it's illegal to make particle rounds of this caliber. Namely because it, you know, it mangles anything it hits, and if this thing isn’t built right it’ll blow up and kill you. But I guess this one works fine as here you are still siting here, how lucky for all of us...",
         "cost": 4,
         "unique": false,
+        "bo": true,
         "requirements": {
           "circumstances": "Brigand"
         }
@@ -280,6 +282,7 @@
         "text": "A plasma fueled flamethrower. You actually killed people with this? How do you sleep at night.",
         "cost": 4,
         "unique": false,
+        "bo": true,
         "requirements": {
           "circumstances": "Brigand"
         }
@@ -338,6 +341,7 @@
         "text": "So what in the Sam Hill fuck is this thing? I’m asking you because I can tell this is a full custom job and I have no clue what this thing is. It’s a modified Assblaster, with railgun acceleration, that shoots armor piercing and explosive smart rounds, with a working chainsaw attachment. Well color me impressed, this might be one of the most horrifying gun I've ever seen. Did you wipe your ass with the Geneva Accords before making this?",
         "cost": 5,
         "unique": true,
+        "bo": true,
         "requirements": {
           "circumstances": "Brigand"
         }
@@ -505,6 +509,7 @@
         "title": "Assault Mech",
         "text": "(Shuffles through papers and picks one up.) You know Anon, that’s a mighty fine... crop harvester you’ve got their! But you know if I squinted my eyes a certain way, I might think that that was A CL ASS FOUR ASSAULT MECH! How in the hell did you even manage to get this? I can tell it’s a retro fitted Goliath class, but you probably tore out all the military systems and put in your own shitty bootleg pirate ones. Well I’m authorized to put three Heavy weapon class weapons on this thing, plus two Medium class point defenses, and these high yield rocket pods. You’re getting twenty of these rockets and that’s it, no fabrication plans for these. I hope this thing malfunctions and kills you.",
         "cost": 7,
+        "bo": true,
         "requirements": {
           "circumstances": "Brigand"
         }
@@ -567,6 +572,7 @@
         "title": "Minx",
         "text": "Sigh... So here's your shit stain second in command. You can get her this colony deal to if you like. I've never in my life met someone more brash or loud. How did you ever control someone so bratty or impulsive? Well actually, based on the memory scan we did of her, she’s got some kind of twisted codependent attachment to you. She calms right down when you're around, wants to follow you like a puppy, and if you ordered her to throw her life away she'd do it. So was it drugs, torture, mind alteration? Or did to two star-crossed broken souls make a beautiful connection? How sweet for you two. If you don’t take her she’ll be executed, so let's sec if you still have a heart in there somewhere you monster. <br>Minx will come with a modified, more explosive Launcher, and two Skullfuckers.",
         "cost": 4,
+        "bo": true,
         "requirements": {
           "circumstances": "Brigand"
         }
@@ -647,6 +653,7 @@
         "title": "AA-Walker",
         "text": "Well we’re already basically breaking the law by having the Assault Mech, so might as well bring in your fucking AA-Walker. 1 hear they had to send in special forces to disable this thing before they could send in the cavalry to arrest you Otherwise you would have just blown them all out of the air. While I will say it'll be nice for you to have a back up to the town’s AA system, this one being mobile too, giving you even more options With that armor it's a tough nut to crack, and while it’s not the fastest mech, it can still probably out run you. We can mount two Medium class weapons as point defense, otherwise you wouldn’t be able to hit ground targets. We can also retrofit your missile system to be the same as the town’s direct energy so you won't have to worry about ammo. I'll give you a pass on this one because it directly benefits the colony, just don’t push your luck.",
         "cost": 6,
+        "bo": true,
         "requirements": {
           "circumstances": "Brigand"
         }

@@ -24,13 +24,15 @@ const BreakdownTable = ({ sections, breakdown }) => {
         <TableBody>
           {breakdown.map((section, index) => {
             return section.map((choice) => {
+              const costLabel =
+                choice.cost < 0 ? `+${Math.abs(choice.cost)}` : choice.cost;
               return (
                 <TableRow key={`table-row-${choice.title}`}>
                   <TableCell component="th" scope="row">
                     {choice.title}
                   </TableCell>
                   <TableCell align="right">{choice.prev}</TableCell>
-                  <TableCell align="right">{choice.cost}</TableCell>
+                  <TableCell align="right">{costLabel}</TableCell>
                   <TableCell align="right">{choice.curr}</TableCell>
                 </TableRow>
               );

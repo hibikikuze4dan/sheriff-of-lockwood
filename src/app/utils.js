@@ -66,12 +66,26 @@ export const getCircumstance = (state) => {
 
 export const deduplicateArmaments = (state) => {
   const stateChoices = state.get("choices");
+  const circumstance = stateChoices
+    .get("circumstances")
+    .get(0, new Map())
+    .get("title", "");
   const choices = stateChoices.get("armaments");
   const uniques = choices.filter((val) => val.get("unique") === true);
-  if (uniques.size < 2) {
+  if (uniques.size < 2 || circumstance === "Famous Gunslinger") {
     return state;
   }
-  const newChoices = removeChoice(choices, uniques.get(0));
+  let numOfUniques = uniques.size;
+  const newChoices = choices.filter((choice) => {
+    if (choice.get("unique")) {
+      if (numOfUniques > 1) {
+        numOfUniques = numOfUniques - 1;
+        return false;
+      }
+      return true;
+    }
+    return true;
+  });
   const updatedChoices = stateChoices.set("armaments", newChoices);
   return state.set("choices", updatedChoices);
 };
@@ -95,7 +109,11 @@ export const setBombCollar = (state) => {
   const defMap = new Map();
   const isBrigand =
     circumstancesChoices.get(0, defMap).get("title", "") === "Brigand";
-  if (!isBrigand) {
+  const hasBombCollar = stateChoices
+    .get("drawbacks")
+    .filter((choice) => choice.get("title") === "Bomb Collar")
+    .get(0, false);
+  if (!isBrigand || hasBombCollar) {
     return state;
   }
   const updatedChoices = stateChoices.set(
@@ -152,9 +170,7 @@ export const regularOldJoeModifier = (state) => {
       if (a.get("cost") > b.get("cost")) {
         return 1;
       }
-      if (a.get("cost") === b.get("cost")) {
-        return 0;
-      }
+      return 0;
     })
     .reverse()
     .map((choice) => {
@@ -178,9 +194,7 @@ export const regularOldJoeModifier = (state) => {
       if (a.get("cost") > b.get("cost")) {
         return 1;
       }
-      if (a.get("cost") === b.get("cost")) {
-        return 0;
-      }
+      return 0;
     })
     .reverse()
     .map((choice) => {
@@ -203,13 +217,133 @@ export const regularOldJoeModifier = (state) => {
   return state.set("choices", updatedChoices);
 };
 
+export const exMilitaryModifier = (state) => {
+  const stateChoices = state.get("choices");
+  const armamentsChoices = stateChoices
+    .get("armaments")
+    .sort((a, b) => {
+      if (a.get("cost") < b.get("cost")) {
+        return -1;
+      }
+      if (a.get("cost") > b.get("cost")) {
+        return 1;
+      }
+      return 0;
+    })
+    .reverse()
+    .map((choice, index) => {
+      if (choice.get("unique")) {
+        return choice;
+      }
+      if (index < 2) {
+        return choice.set("cost", 0);
+      }
+      return choice.set("cost", choice.get("cost") - 1);
+    });
+  const updatedChoices = stateChoices.set("armaments", armamentsChoices);
+  return state.set("choices", updatedChoices);
+};
+
+export const famousGunslingerModifier = (state) => {
+  const stateChoices = state.get("choices");
+  const armamentsChoices = stateChoices.get("armaments").map((choice) => {
+    if (choice.get("unique") && choice.get("title") !== "Wild West") {
+      return choice.set("cost", choice.get("cost") - 2);
+    }
+    return choice;
+  });
+  const updatedChoices = stateChoices.set("armaments", armamentsChoices);
+  return state.set("choices", updatedChoices);
+};
+
+export const famousShowmanModifier = (state) => {
+  const stateChoices = state.get("choices");
+  const deputiesChoices = stateChoices
+    .get("deputies")
+    .sort((a, b) => {
+      if (a.get("cost") < b.get("cost")) {
+        return -1;
+      }
+      if (a.get("cost") > b.get("cost")) {
+        return 1;
+      }
+      return 0;
+    })
+    .reverse()
+    .map((choice, index) => {
+      if (index < 2) {
+        return choice.set("cost", 0);
+      }
+      return choice.set("cost", choice.get("cost") - 1);
+    });
+  const updatedChoices = stateChoices.set("deputies", deputiesChoices);
+  return state.set("choices", updatedChoices);
+};
+
+export const brigandModifier = (state) => {
+  const stateChoices = state.get("choices");
+  const bringandChoices = fromJS(
+    stateChoices
+      .reduce((acc, section) => {
+        const accumulator = acc;
+        section
+          .filter((choice) => choice.get("bo", false))
+          .forEach((choice) => accumulator.push(choice));
+        return accumulator;
+      }, [])
+      .sort((a, b) => {
+        if (a.get("cost") < b.get("cost")) {
+          return -1;
+        }
+        if (a.get("cost") > b.get("cost")) {
+          return 1;
+        }
+        return 0;
+      })
+      .reverse()
+      .filter((val, index) => index < 2)
+  );
+  const updatedChoices = stateChoices.map((section) => {
+    return section.map((choice) => {
+      if (bringandChoices.includes(choice)) {
+        return choice.set("cost", 0);
+      }
+      return choice;
+    });
+  });
+  return state.set("choices", updatedChoices);
+};
+
 const applyCircumstanceModifier = (circumstance, state) => {
   const modifiers = {
     Lawbringer: lawbringerModifier,
     "Regular Old Joe": regularOldJoeModifier,
+    "Ex-Military": exMilitaryModifier,
+    "Famous Gunslinger": famousGunslingerModifier,
+    "Famous Showman": famousShowmanModifier,
+    Brigand: brigandModifier,
   };
   const func = modifiers[circumstance] ? modifiers[circumstance] : (val) => val;
   return func(state);
+};
+
+export const getCosts = (state) => {
+  const circumstance = getCircumstance(state);
+  let stateChoices = null;
+  if (circumstance) {
+    stateChoices = applyCircumstanceModifier(circumstance, state).get(
+      "choices"
+    );
+  } else {
+    stateChoices = state.get("choices");
+  }
+  const updatedChoices = stateChoices.map((section) => {
+    return section.map((choice) => {
+      const cost = checkIfFree(choice, state) ? 0 : choice.get("cost", 0);
+      return choice.set("cost", cost);
+    });
+  });
+  return state.set("choices", updatedChoices);
 };
 
 export const applyCosts = (state) => {
