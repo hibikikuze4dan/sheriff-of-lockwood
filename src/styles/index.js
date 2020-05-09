@@ -4,7 +4,8 @@ const appStyles = makeStyles({
   div: {
     backgroundColor: "#ECD078",
     textAlign: "center",
-    height: "100%",
+    height: "fit-content",
+    minHeight: window.innerHeight,
   },
 });
 
@@ -34,6 +35,7 @@ const gridWrapperStyles = makeStyles({
   grid: {
     padding: "16px",
     backgroundColor: "#ECD078",
+    height: "min-heeight",
   },
 });
 
