@@ -153,7 +153,12 @@ export const lawbringerModifier = (state) => {
   const stateChoices = state.get("choices");
   const officeChoices = stateChoices
     .get("office")
-    .map((choice) => choice.set("cost", choice.get("cost") - 1));
+    .map((choice) =>
+      choice.set(
+        "cost",
+        choice.get("cost") - 1 < 0 ? 0 : choice.get("cost") - 1
+      )
+    );
   const updatedChoices = stateChoices.set("office", officeChoices);
   return state.set("choices", updatedChoices);
 };
