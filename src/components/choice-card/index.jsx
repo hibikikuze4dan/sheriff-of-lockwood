@@ -33,13 +33,13 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
 
   return (
     <Button
-      style={{ backgroundColor: picked ? "green" : "white" }}
+      style={{ backgroundColor: picked ? "green" : "white", height: "100%" }}
       component={Card}
       onClick={() => handleClick(choice, picked)}
-      className={classes.button}
+      classes={{ root: classes.button, label: classes.label }}
     >
       <Grid container>
-        <Grid item xs={12}>
+        <Grid item xs={12} style={{ paddingBottom: "1rem" }}>
           <Typography className={classes.title}>
             <Interweave content={choice.title} />
           </Typography>

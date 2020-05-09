@@ -2,7 +2,7 @@
   "title": "Sheriff of Lockwood",
   "opening": {
     "title": "Sheriff of Lockwood",
-    "subtitle": "Well howdy there partner! The name’s Niles, I’ll be the requisitions officer for your imminent departure to System 2432-Nine. On a recently settled planet by the name of New Reno, you’re going to be the sheriff of a budding new settlement called Lockwood! It’ll be a tough a job I have no doubt, so let’s you get you outfitted properly so you have the best chance of success.<br><br>The ol' colony ship here has all you need to get Lockwood lip and running in no time guaranteed. Not that any of that is your job anyway as I’m sure you’re aware. The whole towns’ in those crates over there, and the construction bots will duct tape and staple it together lickitty split I assure you. But you see, all this is coining in one shipment, and it’ll be awhile before you get another one. So make sure you’re precise in your selections, as you’ll be stuck with it for a while.<br><br>You’ve seen the prairie back on Old Earth right? Relatively arid, beautiful rolling plains and hills, and simply the most down right picturesque sunsets you’ve ever seen. That’s what most of New Reno is covered in, and people would be jumping up and down at the chance of settling it if it weren’t so blasted far out in the sticks. But I’m sure you don’t need to sit here and hear me jaw on about it for eternity, you’ll be standmg on it soon enough anyway. So let’s get started before the cows come on and come home."
+    "subtitle": "Well howdy there partner! The name’s Niles, I’ll be the requisitions officer for your imminent departure to System 2432-Nine. On a recently settled planet by the name of New Reno, you’re going to be the sheriff of a budding new settlement called Lockwood! It’ll be a tough a job I have no doubt, so let’s you get you outfitted properly so you have the best chance of success.<br><br>The ol' colony ship here has all you need to get Lockwood lip and running in no time guaranteed. Not that any of that is your job anyway as I’m sure you’re aware. The whole towns’ in those crates over there, and the construction bots will duct tape and staple it together lickitty split I assure you. But you see, all this is coining in one shipment, and it’ll be awhile before you get another one. So make sure you’re precise in your selections, as you’ll be stuck with it for a while.<br><br>You’ve seen the prairie back on Old Earth right? Relatively arid, beautiful rolling plains and hills, and simply the most down right picturesque sunsets you’ve ever seen. That’s what most of New Reno is covered in, and people would be jumping up and down at the chance of settling it if it weren’t so blasted far out in the sticks. But I’m sure you don’t need to sit here and hear me jaw on about it for eternity, you’ll be standing on it soon enough anyway. So let’s get started before the cows come on and come home."
   },
   "gender": {
     "title": "Gender",
@@ -37,7 +37,7 @@
       {
         "id": 1,
         "title": "Regular Old Joe",
-        "text": "Regular Old Joe- Just found you off the street did they? That’s okay, you know the pay’s good at least, wouldn’t be standing here otherwise I reckon. Though you cut an impressive figure I must say, a diamond in the rough as it were. But to be honest partner, I’m not sure you rightly now what you’re getting yourself into...<br><br>(Take “S-Horse” mount, one skill, and one Light Armament for free. Drawbacks give you one additional point.)"
+        "text": "Regular Old Joe- Just found you off the street did they? That’s okay, you know the pay’s good at least, wouldn’t be standing here otherwise I reckon. Though you cut an impressive figure I must say, a diamond in the rough as it were. But to be honest partner, I’m not sure you rightly know what you’re getting yourself into...<br><br>(Take “S-Horse” mount, one skill, and one Light Armament for free. Drawbacks give you one additional point.)"
       },
       {
         "id": 2,
@@ -47,12 +47,12 @@
       {
         "id": 3,
         "title": "Famous Gunslinger",
-        "text": "Well okay, I was just kind of joshing you. I know you, you’re the Smithso Kid! I didn’t want to make it awkward or mithin’ but uh... can I have your autograph? I- It’s for my nephew! S-swear it. T-though I’m kind of fan too. Gosh damnit I told myself I wasn’t going to get flustered when I met you! Anyway though. I’m sure someone as rough and tumble as you won’t have any trouble throwing a lasso around New Reno and hog-tying it. Huh... it’s funny how... almost like fate... <br><br>(Take “Crackshot” skill and “Wild West” unique Armament for free. No limit on uniques, and they cost two points less.)"
+        "text": "Well okay, I was just kind of joshing you. I know you, you’re the Smithso Kid! I didn’t want to make it awkward or nuthin’ but uh... can I have your autograph? I- It’s for my nephew! S-swear it. T-though I’m kind of fan too. Gosh damnit I told myself I wasn’t going to get flustered when I met you! Anyway though. I’m sure someone as rough and tumble as you won’t have any trouble throwing a lasso around New Reno and hog-tying it. Huh... it’s funny how... almost like fate... <br><br>(Take “Crackshot” skill and “Wild West” unique Armament for free. No limit on uniques, and they cost two points less.)"
       },
       {
         "id": 4,
         "title": "Famous Showman",
-        "text": "Oh you’re uh... uh... right, right that one. Shit... soriy. I mean I have heard of you though. I'm pretty sure I saw one of your shows when I went to Lost Vega. I was drunk though so... but you have played there right? That’s great! Just please forgive my shitty memory. I’m sure plenty of people will have heard of you on New Reno. And if not, nothing says you can't put on more shows when you’re not sheriffing. But to make sure you have shot a real gun before right? Not just a prop? I'm just asking geez! I’m just saying being a sheriff is little different than a performance on the Narrow-Way okay?<br><br>(Take “Method Actor” skill and two Deputies for free. All Deputies cost one point less.)"
+        "text": "Oh you’re uh... uh... right, right that one. Shit... sorry. I mean I have heard of you though. I'm pretty sure I saw one of your shows when I went to Lost Vega. I was drunk though so... but you have played there right? That’s great! Just please forgive my shitty memory. I’m sure plenty of people will have heard of you on New Reno. And if not, nothing says you can't put on more shows when you’re not sheriffing. But to make sure you have shot a real gun before right? Not just a prop? I'm just asking geez! I’m just saying being a sheriff is little different than a performance on the Narrow-Way okay?<br><br>(Take “Method Actor” skill and two Deputies for free. All Deputies cost one point less.)"
       },
       {
         "id": 5,
@@ -103,7 +103,7 @@
       {
         "id": 7,
         "title": "Sheeple",
-        "text": "Shccple are kind of the odd ones out here. There biggest asset is how adaptive their bodies are too extreme temperatures, especially cold. But New Reno has an odd almost arid/tempcrate climate, making the Sheeple specialty kind of useless. But I mean hey, you'll never be too hot or cold, that’s nice in of itself. Sheeple are also great at winning cuteness contests. Also useless, but just look at that sweet face! Human like features only. So yeah these also look like satyrs, just really woolly ones."
+        "text": "Sheeple are kind of the odd ones out here. There biggest asset is how adaptive their bodies are too extreme temperatures, especially cold. But New Reno has an odd almost arid/tempcrate climate, making the Sheeple specialty kind of useless. But I mean hey, you'll never be too hot or cold, that’s nice in of itself. Sheeple are also great at winning cuteness contests. Also useless, but just look at that sweet face! Human like features only. So yeah these also look like satyrs, just really woolly ones."
       },
       {
         "id": 8,

@@ -18,6 +18,9 @@ const applicationBarStyles = makeStyles({
   },
   iconButton: {
     padding: "16px 16px 16px 0",
+    "&:hover": {
+      backgroundColor: "unset",
+    },
   },
 });
 
@@ -37,6 +40,10 @@ const gridWrapperStyles = makeStyles({
 const cardStyles = makeStyles({
   button: {
     textTransform: "none",
+    alignItems: "baseline",
+  },
+  label: {
+    height: "100%",
   },
   title: {
     fontSize: "2rem",
@@ -44,6 +51,9 @@ const cardStyles = makeStyles({
   },
   description: {
     fontSize: "1rem",
+  },
+  paper: {
+    alignItems: "baseline",
   },
 });
 
