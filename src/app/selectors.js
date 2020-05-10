@@ -31,8 +31,8 @@ export const getRelativeSections = createSelector(
   (sections, location) => {
     const locationIndex = sections.indexOf(location);
     return [
-      sections[locationIndex - 1] || "",
-      sections[locationIndex + 1] || "",
+      sections[locationIndex - 1] || "events",
+      sections[locationIndex + 1] || "opening",
     ];
   }
 );
