@@ -26,6 +26,17 @@ export const getSections = createSelector(getOutline, (outline) => {
   return sections;
 });
 
+export const getRelativeSections = createSelector(
+  [getSections, getLocation],
+  (sections, location) => {
+    const locationIndex = sections.indexOf(location);
+    return [
+      sections[locationIndex - 1] || "",
+      sections[locationIndex + 1] || "",
+    ];
+  }
+);
+
 export const getSectionsFormattedTitle = createSelector(
   getSections,
   (sections) => {

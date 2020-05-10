@@ -27,7 +27,9 @@ const initialState = fromJS(
     points: 25,
     choices: defaultChoices,
     currentPoints: 25,
-    location: window.location.href.split("/").pop(),
+    location: window.location.href.split("/").pop()
+      ? window.location.href.split("/").pop()
+      : "opening",
   },
   (key, value) => {
     if (key === "choices" || key === "outline") {

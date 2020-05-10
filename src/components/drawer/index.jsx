@@ -25,6 +25,7 @@ const NavigationDrawer = ({
       open={open}
       ModalProps={{ onBackdropClick: () => handleBackgroundClick(!open) }}
       classes={{ paper: classes.drawer }}
+      anchor="left"
     >
       {formattedSections.map((section, index) => {
         return (
@@ -35,6 +36,7 @@ const NavigationDrawer = ({
               handleBackgroundClick(!open);
               return updateLocation(sections[index]);
             }}
+            onKeyPress={(e) => console.log(e)}
             to={sections[index]}
             className={
               location === sections[index] ? classes.selectedButton : ""
