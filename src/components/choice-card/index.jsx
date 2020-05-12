@@ -1,6 +1,13 @@
 import React from "react";
-import { Button, Card, Typography, Grid } from "@material-ui/core";
+import {
+  Button,
+  Card,
+  Typography,
+  Grid,
+  CircularProgress,
+} from "@material-ui/core";
 import Interweave from "interweave";
+import Img from "react-image";
 
 import { extractRequirements } from "../../app/utils";
 import styles from "../../styles";
@@ -8,6 +15,7 @@ import styles from "../../styles";
 const ChoiceCard = ({ handleClick, choice, picked }) => {
   const classes = styles.cardStyles();
   const cost = choice?.cost;
+  const src = choice?.src;
   const requirements = extractRequirements(choice);
   const required = choice?.required;
   const weight = choice?.weight;
@@ -31,6 +39,22 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
     );
   }
 
+  let imageSection = null;
+  if (src) {
+    imageSection = (
+      <Grid item xs={12}>
+        <Grid container justify="center">
+          <Img
+            style={{ height: "300px", width: "100%", objectFit: "fill" }}
+            src={src}
+            loader={<CircularProgress />}
+            unloader={<CircularProgress />}
+          />
+        </Grid>
+      </Grid>
+    );
+  }
+
   return (
     <Button
       style={{ backgroundColor: picked ? "green" : "white", height: "100%" }}
@@ -39,6 +63,7 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
       classes={{ root: classes.button, label: classes.label }}
     >
       <Grid container>
+        {imageSection}
         <Grid item xs={12} style={{ paddingBottom: "1rem" }}>
           <Typography className={classes.title}>
             <Interweave content={choice.title} />

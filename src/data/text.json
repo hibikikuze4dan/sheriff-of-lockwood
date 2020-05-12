@@ -11,16 +11,19 @@
       {
         "id": 0,
         "title": "Male",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238053/Sheriff%20of%20Lockwood/Gender/Annotation_2020-05-11_175938_ukpju2.png",
         "text": "Handsome as the devil and as strong as a bull. I’m sure you’ll be real popular with the ladies were you’re going!"
       },
       {
         "id": 1,
         "title": "Female",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238051/Sheriff%20of%20Lockwood/Gender/Annotation_2020-05-11_175843_nrbwsr.png",
         "text": "Oh excuse my “feller” my fair lady. As pretty as a peach and as sweet as honey. I’m sure you’ll have suiters lining up around the block!"
       },
       {
         "id": 2,
         "title": "Herm",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238051/Sheriff%20of%20Lockwood/Gender/Annotation_2020-05-11_180004_niunvc.png",
         "text": "Oh a herm are you now? Nothing wrong with that, nothing at all. You know my papi was a herm, kindest man I ever met. Great tits too."
       }
     ]
@@ -32,31 +35,37 @@
       {
         "id": 0,
         "title": "Lawbringer",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589235962/Sheriff%20of%20Lockwood/Circumstances/Annotation_2020-02-15_094642_zvjh0i.png",
         "text": "Oh you are a police officer?! Well that is indeed a fine streak of luck! I thought-... Uh never mind. Well anyway, that means you’ll be a natural for this, just do what you normally do. You’ll do us proud I’m sure!<br><br>(Take “Police Procedures” skill for free. All Sheriff’s Office Upgrades cost one less point.)"
       },
       {
         "id": 1,
         "title": "Regular Old Joe",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589235964/Sheriff%20of%20Lockwood/Circumstances/Annotation_2020-05-11_171335_afykaq.png",
         "text": "Regular Old Joe- Just found you off the street did they? That’s okay, you know the pay’s good at least, wouldn’t be standing here otherwise I reckon. Though you cut an impressive figure I must say, a diamond in the rough as it were. But to be honest partner, I’m not sure you rightly know what you’re getting yourself into...<br><br>(Take “S-Horse” mount, one skill, and one Light Armament for free. Drawbacks give you one additional point.)"
       },
       {
         "id": 2,
         "title": "Ex-Military",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589235961/Sheriff%20of%20Lockwood/Circumstances/Annotation_2020-05-11_171440_lpl3ud.png",
         "text": "An old trooper are you? At easy soldier... at least for now. Special forces, infantry, recon unit... phew boy, are we ever lucky it was tough customer like you Anon! Though I will warn you that New Reno ain’t no push over either. Just keep your wits sharp and your guns oiled up, and you ought to come out fine. You also might have been briefed about the... well... probably shouldn’t talk about that now. We’ll catch up you up on that latter.<br><br>(Take “Veteran” skill and two non-unique Armaments for free. All non-unique Armaments cost one point less.)"
       },
       {
         "id": 3,
         "title": "Famous Gunslinger",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589235963/Sheriff%20of%20Lockwood/Circumstances/Annotation_2020-05-11_171504_oqxvgb.png",
         "text": "Well okay, I was just kind of joshing you. I know you, you’re the Smithso Kid! I didn’t want to make it awkward or nuthin’ but uh... can I have your autograph? I- It’s for my nephew! S-swear it. T-though I’m kind of fan too. Gosh damnit I told myself I wasn’t going to get flustered when I met you! Anyway though. I’m sure someone as rough and tumble as you won’t have any trouble throwing a lasso around New Reno and hog-tying it. Huh... it’s funny how... almost like fate... <br><br>(Take “Crackshot” skill and “Wild West” unique Armament for free. No limit on uniques, and they cost two points less.)"
       },
       {
         "id": 4,
         "title": "Famous Showman",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589235960/Sheriff%20of%20Lockwood/Circumstances/Annotation_2020-05-11_171534_xtmjyx.png",
         "text": "Oh you’re uh... uh... right, right that one. Shit... sorry. I mean I have heard of you though. I'm pretty sure I saw one of your shows when I went to Lost Vega. I was drunk though so... but you have played there right? That’s great! Just please forgive my shitty memory. I’m sure plenty of people will have heard of you on New Reno. And if not, nothing says you can't put on more shows when you’re not sheriffing. But to make sure you have shot a real gun before right? Not just a prop? I'm just asking geez! I’m just saying being a sheriff is little different than a performance on the Narrow-Way okay?<br><br>(Take “Method Actor” skill and two Deputies for free. All Deputies cost one point less.)"
       },
       {
         "id": 5,
         "title": "Brigand",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589235963/Sheriff%20of%20Lockwood/Circumstances/Annotation_2020-05-11_171601_aaqpuj.png",
         "text": "Hump. (He grunts as he reads your papers.) Brigand are ya. (His opinion of you seems to have dropped a few notches.) You know I had a cousin that was killed by brigands. He was a herm too but that’s unrelated. (Niles gives you a measured stare) You may be wondenng why they captured you alive and you’re standing here before me and not rotting in a jail cell. Well, you’ll soon find out. And I’ve been told to tell you that if there's even the tiniest problem coming from you, your agreement goes up in ashes and the Head Marshal will personally mount your head on his wall. As for your all your little \"toys\" ... you have been authorized to keep them, but we ain't loading them on the ship for free. Do your time and do your job and you might have a chance in at redemption. <br><br>(Take \"Battle-Scarred\" skill for free. Brigand’s have access to exclusive options, and you can pick any two of them for free.)"
       }
     ]
@@ -68,46 +77,55 @@
       {
         "id": 0,
         "title": "Human",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238543/Sheriff%20of%20Lockwood/Treatment/Annotation_2020-05-11_180352_ju7rod.png",
         "text": "Only the most bare-bones treatment is applied. You keep your humanity intact, but get the various immune boosters, disease inoculations, and health supplements. We can even pretty up your face and figure some too if you want, but not by much. Limited procedure and all. You shouldn’t notice any mental changes."
       },
       {
         "id": 1,
         "title": "Cow-Person",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238543/Sheriff%20of%20Lockwood/Treatment/Annotation_2020-05-11_180429_dvmssp.png",
         "text": "By far the most popular option so far, the cow treatment is guaranteed to make you a 10/10 knockout, with just the most curvaceous bodies for the ladies and the most stud like physique for the fellas. Men get much stronger, durable, and powerful phenomes. While woman get... well... heavy lactation for one, several lost IQ points for two, and bimbo-like personalities for three. You could say that's weighted, but I've never seen a cow treated lady complain about it. Cow-people arc also some of the most docile and agreeable, which is why it gets pushed so hard for colonists."
       },
       {
         "id": 2,
         "title": "Minotaur",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238539/Sheriff%20of%20Lockwood/Treatment/Annotation_2020-05-11_180452_rpct1a.png",
         "text": "This one pushes back somewhat on the whole “We want docile colonists” thing, because minotaurs often end up more aggressive then when they started, so the number of treatments for these is quite limited. The undeniable truth though is what a boon they are to starting colonies. Capable of benching several tons, skin tough enough to stop small arms fire, and a seemingly bottomless well of energy make minotaurs fabulous work horses or enforcers. Just be prepared to be rippling with muscle and upwards of eight feet tall. You can choose if you want the “anthro” cow features or to stick to a more light-cow-features human look."
       },
       {
         "id": 3,
         "title": "Deer-Folk",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238539/Sheriff%20of%20Lockwood/Treatment/Annotation_2020-05-11_180519_jyfn5p.png",
         "text": "Typically more popular with men than woman. Reckon because the ladies don't get the cool antlers. Deer-folk make fine workers themselves. Deft of touch and surprisingly quick on their hooves, they have great endurance and usually end up needing less sleep than the other treated species. You can pick \"anthro\" or human features. Anthro looks like the picture. Human looks more like a satyr."
       },
       {
         "id": 4,
         "title": "Horse-Folk",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238540/Sheriff%20of%20Lockwood/Treatment/Annotation_2020-05-11_180542_iryetp.png",
         "text": "Also very popular with men, on account of the baseball-bat sized horsecocks most come out with. All in all though the horse treatment works all most identically to the cow treatment, so most people just take it as an aesthetic choice. Though the horse one gives the strength and durability bonuses to both sexes, both sexes end up dumber as a result. “Anthro” only as well."
       },
       {
         "id": 5,
         "title": "Centaur",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238539/Sheriff%20of%20Lockwood/Treatment/Annotation_2020-05-11_180611_lzjpoi.png",
         "text": "Through some unfortunate science mumbo-jumbo, the only way the eggheads could have human traits on the horse treatment was to make centaurs; upper half human, lower half horse. But hey been a half horse is surprisingly useful. Centaurs are strong sure, but the better part is that they have the best endurance out of all the treated species. You can also run as fast as a horse of course, and by god watch out for that kick! And don’t worry, all of Lockwood's buildings are built to accommodate larger than normal bodies."
       },
       {
         "id": 6,
         "title": "Rabbit-Folk",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238540/Sheriff%20of%20Lockwood/Treatment/Annotation_2020-05-11_180640_yh83ld.png",
         "text": "This one is the second most pushed for colonists, that is because on that big empty planet out there they want you breeding like rabbits right? “So we turned them into literally rabbits\"- some jackass. Look I'll level with you, you probably don’t want this one. Most rabbit-folk end up obsessed with sex and breeding. You're the sheriff, you've got stuff to take care of remember? You can’t just be layed up somewhere fucking 24/7, no matter how much fun I'm sure that would be. But I'm legally required to offer it so... “Antho” or human features. More human-like features mean less mental change, but not by much."
       },
       {
         "id": 7,
         "title": "Sheeple",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238540/Sheriff%20of%20Lockwood/Treatment/Annotation_2020-05-11_180700_dljic9.png",
         "text": "Sheeple are kind of the odd ones out here. There biggest asset is how adaptive their bodies are too extreme temperatures, especially cold. But New Reno has an odd almost arid/tempcrate climate, making the Sheeple specialty kind of useless. But I mean hey, you'll never be too hot or cold, that’s nice in of itself. Sheeple are also great at winning cuteness contests. Also useless, but just look at that sweet face! Human like features only. So yeah these also look like satyrs, just really woolly ones."
       },
       {
         "id": 8,
         "title": "Draenei",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589238541/Sheriff%20of%20Lockwood/Treatment/Annotation_2020-05-11_180727_pad0jf.png",
         "text": "This one is... highly questionable to say the least Getting modded to look like to look and being like some random animal is normal nowadays But taking in alien DNA to become that alien is what would be considered a... frownable offense. Don’t worry though, we’ll get all your papers, pictures, and passports in order. It's a pain though, so this experimental treatment is only offered to select individuals. What can I say about that Draenei though... hmm... well it’s a lot like minotaur treatment actually, you just won't get big and muscularly unless you want to. And like a centaur you could probably kick through an airlock with your hooves. You also get the deftness boost of the Deer-Folk, the fertility’ boost of Rabbit-Folk, and climate control of the Sheeple So you could say it’s the best of all the other treatments «nth none of the drawbacks. Well you arc becoming something entirely alien though, and most treated this way experience strong personality shifts, usually becoming much more self-confident and bold. Draenei are also always herms as well."
       }
     ]
@@ -119,6 +137,7 @@
       {
         "id": 0,
         "title": "Police Phazer",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239843/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_181839_wnqn8w.png",
         "weight": "Light",
         "text": "Standard issues law enforcement sidearm across most of the galaxy. It has two settings, a weak lazer that is technically lethal, and an electric stun. Obviously use the stun to knock out people you want to take alive, and use the lazer as a last resort. Lightweight and durable.",
         "cost": 1,
@@ -128,6 +147,7 @@
       {
         "id": 1,
         "title": "Particle Pistol",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239840/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_181903_ugebiu.png",
         "weight": "Light",
         "text": "Common sidearm found across the galaxy. Fires \"Particle\" shells full of densely packed matter. So bullets basically. Lethal against unarmed targets. Decent armor penetration. Won’t win any awards or get any second glances. But cheap and reliable for what it’s worth.",
         "cost": 1,
@@ -137,6 +157,7 @@
       {
         "id": 2,
         "title": "Steller Shot",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239847/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_181928_nglv4l.png",
         "weight": "Light",
         "text": "Ha! I love these damn things. So you’ve probably noticed the kind of old Earth “wild west” theme these colony operations have got going on. Well some smart ass decided to take a particle pistol and retrofit it into a revolver configuration. It probably wouldn't have done as well as it has if it was just an aesthetic thing, but no it’s highly effective. The larger frame means a larger particle round for more stopping power, longer barrel for better range and accuracy, and the sleek, simple design is easy to clean and maintain. Popular, effective, and fitting if I do say so myself. If only “The Gun That Won The Outskirts Of Space” was catchier.",
         "cost": 2,
@@ -146,6 +167,7 @@
       {
         "id": 3,
         "title": "D36-Epic",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239844/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_181955_adp52f.png",
         "weight": "Light",
         "text": "Have you ever seen one of these before? I’m surprised they authorized these for colonies. It’s basically a space Desert Eagle. With this thing you won’t be shooting someone’s arm, you’ll be shooting someone’s arm off. It’s very lightweight, built of rare alloys, but kicks light a mule so you better hope you hit with the first shoot. But again if you're particularly strong you should be able to compensate.",
         "cost": 3,
@@ -155,6 +177,7 @@
       {
         "id": 4,
         "title": "Sawed Off Particle Shot",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239840/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182019_nj4l8k.png",
         "weight": "Light",
         "text": "So New Reno has some various shall we say... medium sized predators. The notes here say to use this if one is trying to pin or grapple you. So I would recommend not using this on a person unless you mind hauling them to morgue in a bucket.",
         "cost": 3,
@@ -164,6 +187,7 @@
       {
         "id": 5,
         "title": "Skullfucker",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239844/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182046_l9luzn.png",
         "weight": "Light",
         "text": "One of your little toys I see. I believe the slang for this one was “Skullfucker?” As classy as ever. I will say that I’m impressed however that you brigands learned how to make guns of this quality without a fabricator. This one in particular appears to be an SMG that fires shotgun shells? Oh that’s just real great. Why would you strap a normal pistol in your hostler when you have this abomination?",
         "cost": 3,
@@ -176,6 +200,7 @@
       {
         "id": 6,
         "title": "Phazerifle",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239842/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182118_s5z9tq.png",
         "weight": "Medium",
         "text": "A scaled up Police Phazer to a rifle configuration. Bigger battery means more punch, knock out bigger targets and ice more powerful foes. Not much else to say, other than I would highly recommend you take this or the pistol version for the stun setting.",
         "cost": 3,
@@ -185,6 +210,7 @@
       {
         "id": 7,
         "title": "Particle Rifle",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239842/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182147_dftl0v.png",
         "weight": "Medium",
         "text": "Just what it sounds like, a bigger particle pistol. Can fire semi-automatic, full automatic, and three-round bursts. Good against most armor but weaker against shields. A working man’s gun.",
         "cost": 3,
@@ -194,6 +220,7 @@
       {
         "id": 8,
         "title": "Energy Blade",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239844/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182214_mgppah.png",
         "weight": "Medium",
         "text": "A plasma projector that fashions its shape into a sword. I’d say don’t bring a knife to a gunfight, but plenty of people swear by these things. It doesn’t run out of ammo at least. You can also technically use this one-handed, for safe operation it’s recommended that your full attention is focused on the energy blade. You know, so you don’t accidently cut one of your limbs off.",
         "cost": 4,
@@ -203,6 +230,7 @@
       {
         "id": 9,
         "title": "Railgun",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239844/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182318_u3mgad.png",
         "weight": "Medium",
         "text": "Fires particle packages down a magnetized barrel which greatly accelerates it. Extreme long range but slow Firing. Superb armor and shield penetration. Just be carful with it, it’s kind of delicate. Keep it clean and well maintained, and it’ll do its job well.",
         "cost": 4,
@@ -212,6 +240,7 @@
       {
         "id": 10,
         "title": "Retro Rifle",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239847/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182336_ldw7cj.png",
         "weight": "Medium",
         "text": "I’m surprised we still have some of these laying around. It’s an old-fashioned combustion rifle. The old bullets always had an effectiveness all their own, but particle based rounds are just cheaper to make and easier to use. You might get some funny looks, but if it works it works right? Bullets are less effective against today’s alloy armors, but they always did shred shields quick.",
         "cost": 3,
@@ -221,6 +250,7 @@
       {
         "id": 11,
         "title": "Assblaster",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239847/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182411_nu7wna.png",
         "weight": "Medium",
         "text": "Yeah I’d recognize a brigand Assblaster anywhere. This left arm of mine is actually a re-grow; the one God gifted to me got turned into paste by one of these guns. So thanks for owning this. As I’m sure you know it's illegal to make particle rounds of this caliber. Namely because it, you know, it mangles anything it hits, and if this thing isn’t built right it’ll blow up and kill you. But I guess this one works fine as here you are still siting here, how lucky for all of us...",
         "cost": 4,
@@ -233,6 +263,7 @@
       {
         "id": 12,
         "title": "Launcher",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239845/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182456_ustztu.png",
         "weight": "Heavy",
         "text": "It's just called the “Launcher” because there’s just so damn much you can load into it. Grenades, tear gas, particle shells, water bottles, knives, bricks... The chamber is made out of smart matter, so it can change it’s shape as needed. One time I saw a guy shoot a bowling ball with it. That's against regulations though so you know... Save it for the weekends.",
         "cost": 5,
@@ -242,6 +273,7 @@
       {
         "id": 13,
         "title": "Particle Shredder",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239846/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182516_jjkb7j.png",
         "weight": "Heavy",
         "text": "A Gatling gun shooting particle shells, what’s not to love? Well the weight for one, this weighs a few tons. Great against armor or groups of enemies. No spin up, so when you pull the tngger it shoots.",
         "cost": 5,
@@ -251,6 +283,7 @@
       {
         "id": 14,
         "title": "DEW",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239846/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182541_xfyrqm.png",
         "weight": "Heavy",
         "text": "Stands for Direct Energy Weapon. Mainly designed as an anti-vehicle weapon, the DEW shoots bolts or beams of super-heated plasma that quite literally metal armor. And you don't even want to see what it does against people. Not to great against shields though.",
         "cost": 5,
@@ -260,6 +293,7 @@
       {
         "id": 15,
         "title": "Industrial Railgun",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239847/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182628_jcyupl.png",
         "weight": "Heavy",
         "text": "It’s not a magnetic “railgun,” it’s literally just construction equipment that shoots metal stakes. Besides having probably the best armor penetration on this list, it’s also the lightest of the Heavy weapons, which mean you could presumably carry this around and use. To make arrests? I’m not real sure why we’re offering this too you.",
         "cost": 4,
@@ -269,6 +303,7 @@
       {
         "id": 16,
         "title": "Gun Rig",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239848/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182646_wjfauk.png",
         "weight": "Heavy",
         "text": "This isn’t actually a weapon but instead a piece of equipment. The Gun Rig is mechanical, AI assisted exo-skeleton that is built to lift, carry, and reload Heavy weapons. It’s very intuitive don’t worry. It also allows you to dual-wield Medium Weapons.",
         "cost": 6,
@@ -278,6 +313,7 @@
       {
         "id": 17,
         "title": "Facemelter",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239848/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182728_oake0c.png",
         "weight": "Heavy",
         "text": "A plasma fueled flamethrower. You actually killed people with this? How do you sleep at night.",
         "cost": 4,
@@ -290,6 +326,7 @@
       {
         "id": 18,
         "title": "Smart Matter Gun",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239848/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182755_ijg7dl.png",
         "weight": null,
         "text": "Now this is bending the rules a bit, but we’re trusting you to keep it under-wraps. This right here is an experimental piece of AI controlled hardware built almost entirely out of smart matter. In the AI’s database is plans for all the other Light and Medium guns in this list, and this smart matter gun can “shift” into any of those upon request. It also has access to several modifications for each of the guns that we didn’t take the time to list. So pretty damn useful right? But you must keep this gun on your person or in lock-up at all times. If someone tries to tamper with it, it’ll self-destruct and be reduced to ash.",
         "cost": 8,
@@ -299,6 +336,7 @@
       {
         "id": 19,
         "title": "Blacklight Ace",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239848/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182820_x5gfqx.png",
         "weight": null,
         "text": "MMM! If your standard particle rifle is a Prius, than this is a Ferrari. Made of the highest quality alloys and materials and fine-tuned to perfection, this ultimate in particle rifle performance will make you say, “Why doesn't this come gold plated?” Well they actually do make these gold plated but that wouldn’t pass weight regulations so... It’s the most comfortable gun you’ll ever shoot guarantied. Couldn’t swing the cup-holder attachment though, sorry partner.",
         "cost": 6,
@@ -308,6 +346,7 @@
       {
         "id": 20,
         "title": "Colony Gun",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239849/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182842_eob4ro.png",
         "weight": null,
         "text": "Ehh... It’s effective sure, but almost more of a novelty. Or a status symbol. Oh you never seen one of these before? Look at it, it’s a living alien organism that’s using the metal frame of the gun as a spine. Kind of gross, kind of awesome. You have to feed it these special food packets, and when you pull the trigger it fires these super hard and sharp shards of chitin. I’ve heard that if it likes you more it’ll shoot faster, and if a stranger picks it up it won’t shoot at all. They’re not allowing any pets on the ship so I guess this is as close as you’re going to get.",
         "cost": 4,
@@ -317,6 +356,7 @@
       {
         "id": 21,
         "title": "Ancient Energy Sword",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239850/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182912_v5wv7s.png",
         "weight": null,
         "text": "What kind of bizarre thing is this? It’s looks like it operates like an energy blade but it has two blades? Jesus, where did you get this Anon? It looks like it belongs in a museum. It’s surprisingly heavy too, so no this can’t go with your carry-on luggage.",
         "cost": 2,
@@ -326,6 +366,7 @@
       {
         "id": 22,
         "title": "Wild West",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239849/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_182928_ce7b7r.png",
         "weight": null,
         "text": "To think I actually get to hold a gun this famous! AHH! One of a kind, the only in existence, the fabrication plans thrown into the sun and made of some of the only vibranium in existence! A Steller Shot that shoots beams of dark matter! Oh my gosh, I remember the time you shoot that bandit troopship in half In half! Normally the round would just bounce off right? But instead the whole ship blew up like it’d been shot by a planetary defense cannon! And then there was the time you turned Six Hand Jack into a smear on the ground because he killed your dog! And then the time when you... O-oh right s-sorry. Here... you can have it back.<br>:(",
         "cost": 0,
@@ -337,6 +378,7 @@
       {
         "id": 23,
         "title": "Gutspiller",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589239849/Sheriff%20of%20Lockwood/Armaments/Annotation_2020-05-11_183000_c4xke5.png",
         "weight": null,
         "text": "So what in the Sam Hill fuck is this thing? I’m asking you because I can tell this is a full custom job and I have no clue what this thing is. It’s a modified Assblaster, with railgun acceleration, that shoots armor piercing and explosive smart rounds, with a working chainsaw attachment. Well color me impressed, this might be one of the most horrifying gun I've ever seen. Did you wipe your ass with the Geneva Accords before making this?",
         "cost": 5,
@@ -355,6 +397,7 @@
       {
         "id": 0,
         "title": "Police Procedures",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241530/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185155_u04b2e.png",
         "text": "Everything you need to know about being a policeman. How to set up a crime scene, gathering evidence, writing reports correctly, how to interrogate subjects, etc so on and so forth. All knowledge gathered from the galaxy’s finest officers.",
         "cost": 2,
         "requirements": null,
@@ -365,6 +408,7 @@
       {
         "id": 1,
         "title": "Law-Knower",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241528/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185245_txob0e.png",
         "text": "This will give you the inside scoop on all the legal what not’s of your job. You’ll know basically ever law on the book eidetically, and will have plenty of refence material and judicial precedent on their application. So trying to mess up your job through legal means will basically be impossible, as you could talk circles around any lawyer when it comes to the actual law.",
         "cost": 2,
         "requirements": null,
@@ -373,6 +417,7 @@
       {
         "id": 2,
         "title": "Defensive",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241529/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185309_e0yzwm.png",
         "text": "This is military training about defensive placements and tactics. You’ll learn how to camouflage structures and people, how to set up effective choke points and firing lines, and even how to build effective barricades and reinforce structures. Remember Anon that you’re stuck out there for two years with out any reinforcements, so if your back is against the wall it’s up to you to make it count.",
         "cost": 3,
         "requirements": null,
@@ -381,6 +426,7 @@
       {
         "id": 3,
         "title": "Crackshot",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241529/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185355_ba0ycb.png",
         "text": "This one is... complicated to say the least. The best way they figured to make you a better shot is run thousands of simulations of you shooting guns through your head, while providing electro therapy to your nervous system to create muscle memory. So even if you’ve never picked up a particle pistol before today, if you do now it’ll feel like you’ve been using one your whole life. There’s also some light eye augments, better vision, tracking etc..",
         "cost": 4,
         "requirements": null,
@@ -391,6 +437,7 @@
       {
         "id": 4,
         "title": "Martial Arts",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241527/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185410_j1zkqx.png",
         "text": "Very similar in fact to the Crackshot treatment, lots of simulations and electro therapy. This one is even more intensive though as you really need to be flexible in order to do some of these, and it’s a fully body workout. By the end of it though you could even take Jackie Chan’s lunch money. There’s also a strong focus on grapples and submission holds, making that your specialty. To assist with arresting people I’m sure.",
         "cost": 3,
         "requirements": null,
@@ -399,6 +446,7 @@
       {
         "id": 5,
         "title": "Method Actor",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241528/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185430_nubsra.png",
         "text": "Gives you a crash course on psychology. You’ll understand how people think, and how to manipulate that. Handy for getting people to do what you want or talking yourself out of a sticky situation, as you’ll instinctively know the right approach to get you the best results. Also includes various public speaking and acting lessons.",
         "cost": 3,
         "requirements": null,
@@ -409,6 +457,7 @@
       {
         "id": 6,
         "title": "Strength",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241533/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185501_qevtz8.png",
         "text": "There’s basically no knowledge download here, this is just a physical procedure to make you stronger. Several of the treatments you have to take anyway will make you stronger, but with this you can be EVEN STRONCKER! After this you should be able to lift heavy class weapons by yourself. Hell if you took this and the Minotaur treatment, you could probably dual-wield them.",
         "cost": 4,
         "requirements": null,
@@ -417,6 +466,7 @@
       {
         "id": 7,
         "title": "Sex Master",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241530/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185522_phsl1k.png",
         "text": "Ah, the old Sex Master skill. We offer this to colonists too, so with modded bodies and downloaded sex skill there’s probably going to be some crazy parties on New Reno. What else can I say? We’re downloading the Kama Sutra into your brain.",
         "cost": 2,
         "requirements": null,
@@ -425,6 +475,7 @@
       {
         "id": 8,
         "title": "Tech-Savvy",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241530/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185543_ygkq02.png",
         "text": "This one will give you the technical skill of an engineer. Instead of just having all the cool technology around, you’ll actually understand how it works too! Repair and upgrade as you see fit. But I might add that there are plenty of other engineers and repair bots going to Lockwood, so don’t feel like you’ll be hung out to dry if you don’t take this.",
         "cost": 3,
         "requirements": null,
@@ -433,6 +484,7 @@
       {
         "id": 9,
         "title": "Veteran",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241533/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185629_eqjgpl.png",
         "text": "This one is very heavy on simulation side. You’ll experience all sorts of war zones, battles, and engagements so that you’ll become familiar with explosions, being shot at, and yes even killing people. To desensitize you to war basically. It’s a tough one to sit through I know, but we can’t have you bending over and throwing up at the first sight of blood when you get on the job. I would even give this one my recommendation to you. For your own good.",
         "cost": 3,
         "requirements": null,
@@ -443,6 +495,7 @@
       {
         "id": 10,
         "title": "Battle Scarred",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241533/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185651_vh3rf8.png",
         "text": "I’ve seen your psych reports. You don’t feel anything for killing people. Men, women, children... Oh that’s right, we scanned your memories. You’re one sick fuck, you do dirty work just the same as you’d do the dishes. I wouldn’t let a ruthless monster like you with in a mile of these civilized honest people... but despite times call for despite measures. It just had to be you of all the people in galaxy...",
         "cost": 0,
         "requirements": {
@@ -455,6 +508,7 @@
       {
         "id": 11,
         "title": "Time Manipulation",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589241533/Sheriff%20of%20Lockwood/Skills/Annotation_2020-05-11_185709_a0huo4.png",
         "text": "Have you ever noticed anything strange in your life Anon? Any... slowness or speed ups of your perception of time. Maybe when you were stressed out, or in the middle of some kind of fight. Well fortunately or perhaps unfortunately, you're the one in a billion lucky individual that's mutated to have an honest to God superpower.<br>Yours is... Time Manipulation of all things. Now we could probably spend decades studying your body and still not be able to figure out how that works, so don’t look to me for an explanation. I'm just giving you the facts. But what we do have for you is some experimental implants that will help you control and activate your powers. We can’t say how they''ll develop, maybe you'll be able to stop time in a localized area, or speed up or slow your body in time, or just straight up time travel. It’ll be up to you to figure out all that. And if you’re looking for a place to start, it might be with your special mission...",
         "cost": 0,
         "requirements": null,
@@ -469,6 +523,7 @@
       {
         "id": 0,
         "title": "S-Horse",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244541/Sheriff%20of%20Lockwood/Mounts/Annotation_2020-05-11_191745_wulv1v.png",
         "text": "A genetically engineered super horse. Has all the best traits a horse could possibly have thanks to genetic manipulation. It’s stronger, faster, and better trained than any horse you’ve ever seen. It also has new regenerative powers that let it heal from any none fatal injury, including broken legs. Just remember that no matter how good a horse it is, it is still a biological horse. Take care of them. You get five S-Horses.",
         "cost": 2,
         "requirements": null,
@@ -479,6 +534,7 @@
       {
         "id": 1,
         "title": "Robo-Horse",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244544/Sheriff%20of%20Lockwood/Mounts/Annotation_2020-05-11_191842_hxw2ci.png",
         "text": "We can rebuild him! Stronger, better! A fully robotic horse for you to ride around on and look like a badass. Just look at the chrome shine on this puppy, MMM! Anyway, it’s AI controlled obviously, and capable of a lot more than what a normal horse could do. It also comes with a Medium class gun of your choice for point defense, smart matter saddle for maximum comfort, and yes I managed to get the cup holder this time. You get two Robo-Horses",
         "cost": 3,
         "requirements": null
@@ -486,6 +542,7 @@
       {
         "id": 2,
         "title": "E-Walker",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244547/Sheriff%20of%20Lockwood/Mounts/Annotation_2020-05-11_191854_hc0luy.png",
         "text": "Mechs are really iffy but this one managed to pass clearance. The E-Walker is an all-terrain, space-rated exploration mech. It has booster rockets that let it cover great distances or heights, a small mining drill for collecting samples, and enough supply storage to be able to run for weeks on end. Just make sure you don’t put any weapons or defenses on it; that would make it a Class 2 mech, and that’s illegal as fuck. Don’t even pick up a gun with the arms. It’s got plenty of armor sure but using it in a fight is felony offense. You get two E-Walkers.",
         "cost": 4,
         "requirements": null
@@ -493,6 +550,7 @@
       {
         "id": 3,
         "title": "Hog",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244541/Sheriff%20of%20Lockwood/Mounts/Annotation_2020-05-11_191918_anyv7y.png",
         "text": "Multi-terrain armored jeep. Study, reliable, easy to repair, easy to operate. These babies have been in service for decades, it just goes to show if it ain’t broke don’t fix it. Can fit three people, and comes with a mounted Heavy class weapon of your choice. We also have a transport variant that can seat six people but has no weapon. You get two so pick which ones you want.",
         "cost": 4,
         "requirements": null
@@ -500,6 +558,7 @@
       {
         "id": 4,
         "title": "Hurtlocker",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244539/Sheriff%20of%20Lockwood/Mounts/Annotation_2020-05-11_191937_esgd7t.png",
         "text": "Unstoppable military grade troop transport. Good over most terrain, surprisingly fuel efficient for it’s size, and plated like an armadillo. This thing can take tank rounds and keep on rolling. Comfortably seats ten people. Comes with a mounted Heavy class weapon of your choice that’s AI controlled. You get one of these.",
         "cost": 6,
         "requirements": null
@@ -507,7 +566,8 @@
       {
         "id": 5,
         "title": "Assault Mech",
-        "text": "(Shuffles through papers and picks one up.) You know Anon, that’s a mighty fine... crop harvester you’ve got their! But you know if I squinted my eyes a certain way, I might think that that was A CL ASS FOUR ASSAULT MECH! How in the hell did you even manage to get this? I can tell it’s a retro fitted Goliath class, but you probably tore out all the military systems and put in your own shitty bootleg pirate ones. Well I’m authorized to put three Heavy weapon class weapons on this thing, plus two Medium class point defenses, and these high yield rocket pods. You’re getting twenty of these rockets and that’s it, no fabrication plans for these. I hope this thing malfunctions and kills you.",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244543/Sheriff%20of%20Lockwood/Mounts/Annotation_2020-05-11_192008_fldhaw.png",
+        "text": "(Shuffles through papers and picks one up.) You know Anon, that’s a mighty fine... crop harvester you’ve got their! But you know if I squinted my eyes a certain way, I might think that that was A CLASS FOUR ASSAULT MECH! How in the hell did you even manage to get this? I can tell it’s a retro fitted Goliath class, but you probably tore out all the military systems and put in your own shitty bootleg pirate ones. Well I’m authorized to put three Heavy weapon class weapons on this thing, plus two Medium class point defenses, and these high yield rocket pods. You’re getting twenty of these rockets and that’s it, no fabrication plans for these. I hope this thing malfunctions and kills you.",
         "cost": 7,
         "bo": true,
         "requirements": {
@@ -522,54 +582,63 @@
     "choices": [
       {
         "title": "Jenny",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244943/Sheriff%20of%20Lockwood/Deputies/Annotation_2020-05-11_195220_dmrexw.png",
         "text": "I couldn’t recommend Officer Jenny highly enough. Exemplarily career for one so young, comes from a long (Long) line of policemen, and is one of the most hard- working and morally upstanding people I’ve ever met. No one else on this list is as good of an actual police officer as Jenny. She also comes with her genetically engineered attack dog. Don’t worry, he’s real friendly, at least until Jenny sics him on a perp. Jenny comes with a Police Phazer and Phazerifle.",
         "cost": 4,
         "requirements": null
       },
       {
         "title": "Imogen Six",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244943/Sheriff%20of%20Lockwood/Deputies/Annotation_2020-05-11_195252_okpzfa.png",
         "text": "Please for the love of God don’t call her by her birth name. Her name is Six, look she’s got it tattooed right there. I’m just warning you now. Six all in all is a fine, hard working officer, it’s just her stubborn and impulsive personality that’s been holding her back. As well as complete disregard for dress code. If she thinks you’re doing a bad job she’ll butt heads with you, but if you prove yourself she’ll follow you into hell.<br> Six comes with a Particle Pistol and a Phazerifle.",
         "cost": 3,
         "requirements": null
       },
       {
         "title": "Carmen",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244953/Sheriff%20of%20Lockwood/Deputies/Annotation_2020-05-11_195309_iwte8x.png",
         "text": "Carmen is another experienced officer, her professionalism, cool-headedness, and work ethic we’re going to take her far up ladder if not for... well I guess you could call is an accident. Carmen signed up for a cultural exchange project between our Human branches and the Draenei, and as part of that, she took the Draenei treatment. It didn’t take well. Remember when I said you could get all the bonuses with none of the drawbacks? Well Carmen got all of the drawbacks. To aggressive, to strong, to homy, and to fertile. She’s still a good person, she can just barely hold it together with out fucking or getting fucked. Honestly the higher ups just want to get rid of her, but hey the environment of the colonies sound like a much better fit for her anyway right? Do a poor soul a kindness and she’ll do everything she can to repay you.<br> Carmen comes with a Police Phazer.",
         "cost": 1,
         "requirements": null
       },
       {
         "title": "Ellis",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244942/Sheriff%20of%20Lockwood/Deputies/Annotation_2020-05-11_195330_m9f7ut.png",
         "text": "Ellis is actually a third generation colonist, growing up on the closest habitable planet to New Reno. She says she wants to continue the push out into the wild west of space. Not an actual police officer, Ellis has spent plenty of time in various colony militias. She knows a lot more about frontier justice than legal justice, but is still an effective enforcer. Laid-back and down-to-earth, she prefers bootleg colony tech and can drink any man under the table. <br>Ellis comes with a Stellar Shot and a Retro Rifle.",
         "cost": 3,
         "requirements": null
       },
       {
         "title": "Jessie James",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244943/Sheriff%20of%20Lockwood/Deputies/Annotation_2020-05-11_195351_ujemzi.png",
         "text": "Another what you would call “Famous Gunslinger,” Jessie rides the stars shooting bad guys, laying beautiful dames, and exploring the stars. Or at least she did, you couldn’t even tell because of mods but Jessie is actually over 70 years old. She’s retiring essentially, but wants to do so in a way that she’s still useful. A big open ranch on a gorgeous prairie filled planet with a comfy guard job sounds like heaven to her. You won’t find anyone here with more experience at fighting or love making than Jessie, but even with mods she’s not in here prime anymore and is starting to slow down. Never make any mention of her age though, she still like to pretend she’s 25. <br>Jessie comes with two Stella Shots.",
         "cost": 3,
         "requirements": null
       },
       {
         "title": "Fleur",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244942/Sheriff%20of%20Lockwood/Deputies/Annotation_2020-05-11_195405_rk80dr.png",
         "text": "A famous space mercenary, Fleur is definitely of the good variety at least. She’s made quite a name for herself across these outer rim colonies as a defender of the people. She’s killed plenty of brigands, troublemakers, and monsters in her time. Upbeat and confident, Fleur is the hometown hero type that always protects her friends and stands up for what’s right. She even works for free if a colony can’t pay Which is quite noble sure, but also makes you jump at the chance for what we’re paying. <br>Fleur comes with a modified Gun Rig, two Particle Rifles which she dual-wields, and a Sawed Off Particle Shot.",
         "cost": 4,
         "requirements": null
       },
       {
         "title": "Scarlet",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244944/Sheriff%20of%20Lockwood/Deputies/Annotation_2020-05-11_195428_qvzz4i.png",
         "text": "Scarlet is an odd one, and not just for her fashion sense. A huge fan of collecting, building, and modding energy blades, it’s unclear why exactly she wants to come work with us on this colony project. She’s done plenty of mercenary work before, so maybe the higher ups snagged her with some particularly sweet bait. Besides the intense demeanor. Scarlet is fairly cheerful and easy going. She does her job quick and efficiently and doesn’t ask to many questions. Just don’t get her started about her sword collection, she will not shut up. <br>Scarlet comes with ten+ energy blades.",
         "cost": 4,
         "requirements": null
       },
       {
         "title": "Maisy",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244947/Sheriff%20of%20Lockwood/Deputies/Annotation_2020-05-11_195446_xmoie4.png",
         "text": "Another mere, this time of the... less than reputable sort. To not sugarcoat it, Maisy is a hitman. Her Railgun has killed plenty of people, brigands, soldiers, random civilians; she’s never turned down a job. This time though she's on our dime if you so choose. You probably won't find someone else as outright lethal as she is on this list. Don’t let her smiling face or low-cut shirt fool you. She’s as hardened a killer as they come. She would gladly blow the head off of either you or your kids. Which ever pays more. Not exactly the most enticing person to watch your back, but she’s never failed a job either so... <br>Maisy comes with a Railgun, a 360 Epic, and a Particle Rifle.",
         "cost": 4,
         "requirements": null
       },
       {
         "title": "Minx",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589244948/Sheriff%20of%20Lockwood/Deputies/Annotation_2020-05-11_195502_kkusbc.png",
         "text": "Sigh... So here's your shit stain second in command. You can get her this colony deal to if you like. I've never in my life met someone more brash or loud. How did you ever control someone so bratty or impulsive? Well actually, based on the memory scan we did of her, she’s got some kind of twisted codependent attachment to you. She calms right down when you're around, wants to follow you like a puppy, and if you ordered her to throw her life away she'd do it. So was it drugs, torture, mind alteration? Or did to two star-crossed broken souls make a beautiful connection? How sweet for you two. If you don’t take her she’ll be executed, so let's sec if you still have a heart in there somewhere you monster. <br>Minx will come with a modified, more explosive Launcher, and two Skullfuckers.",
         "cost": 4,
         "bo": true,
@@ -585,72 +654,84 @@
     "choices": [
       {
         "title": "Anti-Ship Blasters And City Wide Shield",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245725/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200402_jzmhzm.png",
         "text": "These are free as well by the way, I just wanted to talk about them. The City Wide Shield has its own infrastructure on the other side of town, but you will have to make sure it’s guarded at all times, because if it’s destroyed the city is vulnerable to aerial attack. The Sheriff’s Office itself is built in a circular pattern, and in the center are your Anti-Ship Blasters. If any pirate ships come close to Lockwood they’ll be blown to smithereens. So just keep these two key sites safe and you’ll be right as rain. If they do manage to get damaged you should be able to repair them, but if they’re destroyed, you’re toast.",
         "cost": 0,
         "requirements": null
       },
       {
         "title": "Reinforced Cells",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245744/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200419_ydijje.png",
         "text": "Much more expensive alloys will be used in the construction of your jail cells, making them much more durable. No more tying a rope around the bars and pulling down the wall trick. Also includes seismic sensors in the walls and floors that go off if someone tries to dig through.",
         "cost": 3,
         "requirements": null
       },
       {
         "title": "Surveilance Network",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245724/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200432_jb62dp.png",
         "text": "Your entire building is covered in cameras that are constantly watching. You or one of your Deputies can watch them, but there’s also a basic AI that can be programmed to watch for certain behavior and alert you. <br>Slightly Orwellian, but everyone is used to it at this point so...",
         "cost": 2,
         "requirements": null
       },
       {
         "title": "Lazer Tripwires",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245731/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200504_g88xm9.png",
         "text": "Hallways and key doors through your station will be reinforced with lazer tripwires. These can either be set to invisible, and will sound an alarm when touched; or active, which is just lazers that will cut you to ribbons if you touch them. Voice activated or by terminal in your office. Difficult to hack or sabotage.",
         "cost": 4,
         "requirements": null
       },
       {
         "title": "Passive Jell",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245727/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200518_vhlxza.png",
         "text": "A special medical drug that induces a state of docileness and obedience in any who ingest it. Wears off after about 24 hours. The hard part is getting it in somebody the first time, after that you can just order them to eat it. Meant for prisoners only. Misuse of Passive Jell is a felony offense. No kinky shit.",
         "cost": 2,
         "requirements": null
       },
       {
         "title": "AI Assistant",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245765/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200538_lgyzqg.png",
         "text": "A Class Five Independent AI for your personal use. Passes the Turing test with flying colors, she really feels like a real person. This AI will be your secretary; she’ll plan your day, do your paperwork, and care for you any other way you can think of. Yes, sexually if that’s what you want. She is capable of killing someone in defense of you, but is otherwise ridged about not hurting humans. Think of the most perfect, friendliest, socialite assistant you can imagine, and you’ve got your new AI. Comes with an aesthetically pleasing and attractive android body. She can also take control of any piece of equipment or system that is run by an AI.",
         "cost": 4,
         "requirements": null
       },
       {
         "title": "Auto-Turrets",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245728/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200600_dgtosi.png",
         "text": "Retractable Auto-Turrets are placed at key positions around your Sheriff’s office. Each is hidden behind a specially camouflaged panel, but spring out at moment’s notice. A specialized AT uses a friend/foe/threat-level targeting system to identify and neutralize intruders. The gun itself is a modified, high-caliber particle rifle that fires either hollow point or armor piercing rounds based upon the target. The reinforced frame can take a beating before shutting down. Difficult to even locate when hidden, let alone disable, the only way it could possibly be hacked is through the terminal in your office.",
         "cost": 3,
         "requirements": null
       },
       {
         "title": "Imperial Phalanx",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245728/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200615_hmxcem.png",
         "text": "Battle Droids of this caliber are hard to come by. Extra thick hardened alloy plating, Disintegrator class mounted beam cannon, and a Class Four combat AI. This baby is hyper lethal. You wouldn’t find something of this class anywhere outside of the United Federation capital, which is exactly where we special ordered this thing from. Reponses only to your commands, cannot be hacked. Probably can’t be destroyed either. If this thing didn’t cost an arm and a leg there’d never be another war.",
         "cost": 8,
         "requirements": null
       },
       {
         "title": "Clearance Measures",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245735/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200648_utwhud.png",
         "text": "The many key hallways in your station are divided by Biometric Scanner activated airlocks. The only way through is by retina scan, finger print scan, and voice scan of a password. Rather obnoxious I know, so not really recommended for daily use at full force. You can instead dial back the security measures to just one or two at a time, or you can completely lock down your Sheriff Office. If nothing else the airlock doors that come with this are right bitch to break down.",
         "cost": 3,
         "requirements": null
       },
       {
         "title": "Unbreakable Restraints",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245741/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200718_oqh0lh.png",
         "text": "A special order of reinforced restraints. Unbreakable handcuffs, hard light binders, and armored alloy pillories. Useful on account of how strong some modded colonists get; they may be able to break out of conventional restraints. And yes, public humiliation with pillories is not only allowed it’s encouraged. The kinkiness with colonies never ends, I swear.",
         "cost": 1,
         "requirements": null
       },
       {
         "title": "Med-Bay",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245732/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200731_ftncub.png",
         "text": "There’s already going to be a hospital built in Lockwood, this one just adds a miniaturized version to your Sheriff’s Office. Good as a backup in case the other gets destroyed. Comes with revitalizing chambers that heal you from death’s door. Specialized medical AI runs check ups on you and your deputies to keep you in tip top shape.",
         "cost": 2,
         "requirements": null
       },
       {
         "title": "AA-Walker",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589245739/Sheriff%20of%20Lockwood/Office/Annotation_2020-05-11_200756_hkxzrt.png",
         "text": "Well we’re already basically breaking the law by having the Assault Mech, so might as well bring in your fucking AA-Walker. 1 hear they had to send in special forces to disable this thing before they could send in the cavalry to arrest you Otherwise you would have just blown them all out of the air. While I will say it'll be nice for you to have a back up to the town’s AA system, this one being mobile too, giving you even more options With that armor it's a tough nut to crack, and while it’s not the fastest mech, it can still probably out run you. We can mount two Medium class weapons as point defense, otherwise you wouldn’t be able to hit ground targets. We can also retrofit your missile system to be the same as the town’s direct energy so you won't have to worry about ammo. I'll give you a pass on this one because it directly benefits the colony, just don’t push your luck.",
         "cost": 6,
         "bo": true,
@@ -666,36 +747,42 @@
     "choices": [
       {
         "title": "Extra Paperwork",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589246617/Sheriff%20of%20Lockwood/Drawbacks/Annotation_2020-05-11_202014_i3hc47.png",
         "text": "The top brass is being super anal about paperwork. It needs to be written correctly, filed correctly, reviewed correctly, so on and so forth. Any mistake means you got to start over. I’m about to tear y hair out with all the nonsense I’m having to explain. A jug of water went missing and I had to write a five page report about it. You might want to get some hand massagers for this one.",
         "cost": -4,
         "requirements": null
       },
       {
         "title": "Extended Patrols",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589246611/Sheriff%20of%20Lockwood/Drawbacks/Annotation_2020-05-11_202044_tglfhk.png",
         "text": "The higher ups are going to want you on patrol a lot. Doesn’t have to be you necessarily, but at least a deputy has to have eyes out at all times. Great at first I’m sure, but I imagine seeing the same dirt roads over and again will get old fast.",
         "cost": -3,
         "requirements": null
       },
       {
         "title": "Elizabeth Dare",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589246618/Sheriff%20of%20Lockwood/Drawbacks/Annotation_2020-05-11_202107_lvseja.png",
         "text": "The Mayor of Lockwood has taken shall we say... a shine to you. She seems dead set on making you hers. Now that might sound fine at first but let me tell you, Elizabeth is a freak for BDSM like you wouldn’t believe. They could Show Fifty Shades of Gray on Nickelodeon compared to the kind of stuff she gets up to. Remember your training: Avoid, Deny, Defend. Good luck officer, you’ll need it.",
         "cost": -4,
         "requirements": null
       },
       {
         "title": "Slut",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589246611/Sheriff%20of%20Lockwood/Drawbacks/Annotation_2020-05-11_202125_f2yc3g.png",
         "text": "It seems the gene treatment hit you pretty hard with the hominess. Bad for your bed frame, bad for your holes, bad for your work ethic, bad all the way around. Just try your best and keep the fuck breaks to no more than once an hour.",
         "cost": -4,
         "requirements": null
       },
       {
         "title": "Nightmares",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589246614/Sheriff%20of%20Lockwood/Drawbacks/Annotation_2020-05-11_202141_dmxjvr.png",
         "text": "So you’re having horrifying prophetic dreams are you? Well do you know if they’re actually prophetic or just random horrible stuff? I’d say that’s a weird thing to develop, but it probably has something to do with your powers. You’ll probably wake up screaming a lot more now. If it’s to much we can proscribe some sleeping meds, but we don’t want you to get messed up on them or addicted. Perhaps you can learn to control your dreams, or maybe you’re just stuck with them. Only time will tell.",
         "cost": -4,
         "requirements": null
       },
       {
         "title": "Bomb Collar",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589246613/Sheriff%20of%20Lockwood/Drawbacks/Annotation_2020-05-11_202205_jkk6qs.png",
         "text": "You didn’t think we’d just let you loose with all this stuff and trust your good will did you? This is our insurance policy. If you go rogue, it blows up. If you tamper with it, it blows up. If we feel like you’ve stepped to far out of line, it blows up. So unless you want your head to hit the ceiling Campbell’s Extra Chunky style, you’ll do well to remember you’re on a leash. A short leash. Do your job, and maybe we’ll take it off.",
         "cost": 0,
         "requirements": {
@@ -711,54 +798,63 @@
     "choices": [
       {
         "title": "Liberty Day",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589247146/Sheriff%20of%20Lockwood/Events/Annotation_2020-05-11_202730_qxn2sf.png",
         "text": "The day a new colony is founded will be called Liberty Day. Old Earth tradition I believe. On this day you can expect the most ruckus parties you can believe. Fireworks, massive cookouts, and orgies just right there in the street. It’ll be your job to make sure they don’t level the place with their damn partying. Most holidays are like this in fact, but Liberty Day is always the worst.",
         "cost": 0,
         "requirements": null
       },
       {
         "title": "Punk Hazard",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589247145/Sheriff%20of%20Lockwood/Events/Annotation_2020-05-11_202800_qn1jx8.png",
         "text": "An unfortunate side effect of our gene treatments makes a lot of young adults go through a second puberty phase. They’ll be more aggressive, more rebellious, and twice as homy as they were when they were kids. It’s actually kind of funny watching them dress up like punks, graffiti stuff, and try to hump everything that moves. Just don’t let it go to far. Get caught unprepared by these sexed up hooligans and you’ll be turned into a communal cum-dumpster faster than you can say “You’re under arrest.”",
         "cost": 0,
         "requirements": null
       },
       {
         "title": "The Signal",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589247138/Sheriff%20of%20Lockwood/Events/Annotation_2020-05-11_202930_fspbyg.png",
         "text": "Nothing too special here. An early unmanned exploration ship went down on New Reno a while ago, and it’s still sending out it’s destress signal. It’s of to low importance to send a full mission to recover it, but since you’ll be stuck planet side anyway, you might as well go salvage it. It’s quite a ways from Lockwood though, so be prepared for a multi week journey round trip. <br>(You’ll savage one random non-unique weapon, and one vehicle. You’ll be authorized to keep them for your efforts.)",
         "cost": 0,
         "requirements": null
       },
       {
         "title": "Predators",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589247145/Sheriff%20of%20Lockwood/Events/Annotation_2020-05-11_202955_wcu72j.png",
         "text": "New Reno has a few “predator” class wildlife specimens in the vicinity of Lockwood. One common one is the “Prairie Dog,” a roughly dog sized carnivorous scavenger. It has bristly fur and elongated teeth, but is typically wary of people and won't attack unless it's despite or it perceives weakness Another is the “Kodiak,” basically imagine a cross between a crocodile and a bear. Scary when they stand up on two legs, but will typically keep to themselves unless you're blatantly trampling on their territory. Finally there's the “Trembler,” a prickly lizard about the size of a cat. The shake violently to intimate threats. They're also surprisingly aggressive and bold despite their relatively small size, their bite is venomous but with your booster shots their poison is mostly inert to you. Probably about the equivalate of a bee sting Kill all of these as needed for protection, but try not to disrupt to locale ecosystem too much.",
         "cost": 0,
         "requirements": null
       },
       {
         "title": "Heat",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589247145/Sheriff%20of%20Lockwood/Events/Annotation_2020-05-11_203011_dq2jiv.png",
         "text": "Another unfortunate side effect of the gene treatments is that some species enter into a \"heat\" cycle, where their need to breed consumes them. If not prepared for properly it could lead to some males foaming at the mouth trying to rape people, or some women rolling around in the street crying and begging for sex. A procedure I'd recommend implementing is locking up anyone that feels a heat spell coming over them, and feeding them some Passive Jell to calm them down. Or you could just throw them in pillories in the middle of town so they can get what they want. You'll be responding to more domestic disturbances that end up with someone being in heat rather just being drunk.",
         "cost": 0,
         "requirements": null
       },
       {
         "title": "Space Pirates",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589247145/Sheriff%20of%20Lockwood/Events/Annotation_2020-05-11_203025_qm1job.png",
         "text": "The chances of space pirates trekking all the way out into the middle of no where just to get you are quite unlikely, but on the flipside, that’s just what they want you to think! I couldn't possibly tell you if you'll be harassed or attacked or what not. You may actually be able to sneak by for two years with no problems on that front, but as they say, what can go wrong will. You do have a big advantage though; right now Lockwood will be the only active settlement on New Reno. So if you see a complete stranger turn up in town unannounced, that might be a giveaway. Like a said before, keep the City Wide Shield and Anti-Ship Blasters guarded.",
         "cost": 0,
         "requirements": null
       },
       {
         "title": "Explore",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589247142/Sheriff%20of%20Lockwood/Events/Annotation_2020-05-11_203045_v0kdeh.png",
         "text": "Areally open ended thing. The higher ups want you to explore New Reno. There are several ancient structures that are clearly not man made. Find these, catalog them, and get home safe. You've already got your guns Here's your government issued pamphlet on how to deal with unidentified life forms, and here’s a camera. Have fun!",
         "cost": 0,
         "requirements": null
       },
       {
         "title": "Horrors",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589247145/Sheriff%20of%20Lockwood/Events/Annotation_2020-05-11_203107_j0hllg.png",
         "text": "No but seriously, when I mentioned “medium sized predators... ” We re really not even sure what these things are. They're surprisingly weak and slow for what you'd first expect, but the bigger problem is that they can teleport. That appears to have adversely affected their evolution, as being able to easily kill prey at any time has lead to a regression in their strength. They only appear to have an animal level intelligence but at least have the cunning of a wolf or shark. They're carnivorous, and seem to reproduce by oviposition Please for the love of god don't try and have sex with one of these things. Kill any you see on sight with extreme prejudice. Their armor is weak and easy to break through, but redundant primary organs throughout their body make them hard to out right kill. They have perfect vison in total darkness, and slight blindness to bright lights, making them mostly nocturnal They also have a strong aversion to fire and particularly rancid smells.",
         "cost": 0,
         "requirements": null
       },
       {
         "title": "Time Stop",
+        "src": "https://res.cloudinary.com/desu2dan/image/upload/v1589247150/Sheriff%20of%20Lockwood/Events/Annotation_2020-05-11_203126_kvtzow.png",
         "text": "So let me let the cat out of the bag. New Reno experiences localized hour long time stops ever full moon. Time stands still for everything in the planet’s orbit. Again, we’re really not fucking sure why Which is where you come along, our special gold goose. And as you might have just guessed, the Horrors are not in fact teleporting but are in fact stopping time in localized area and simply walking over and eating our surveyors They also become much more active during the planet wide time stops. Thankfully though, one of the powers your implants have unlocked is the ability to unfreeze people suspended in time. All you need to do is touch them and they’ll come out of it. Keep in mind any momentum they might have as they were moving. Find out how or why time is stopping on New Reno, protect your colonist’s lives, and kill as many Horrors as you can. We'd send someone better but literally only you can do this. Good luck Anon, and godspeed.",
         "cost": 0,
         "requirements": null
