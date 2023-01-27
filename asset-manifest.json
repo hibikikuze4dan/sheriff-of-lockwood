@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sheriff-of-lockwood/static/css/main.0e96c88f.chunk.css",
+    "main.js": "/sheriff-of-lockwood/static/js/main.37eeee06.chunk.js",
+    "main.js.map": "/sheriff-of-lockwood/static/js/main.37eeee06.chunk.js.map",
+    "runtime-main.js": "/sheriff-of-lockwood/static/js/runtime-main.8eafaf45.js",
+    "runtime-main.js.map": "/sheriff-of-lockwood/static/js/runtime-main.8eafaf45.js.map",
+    "static/js/2.2680f6fb.chunk.js": "/sheriff-of-lockwood/static/js/2.2680f6fb.chunk.js",
+    "static/js/2.2680f6fb.chunk.js.map": "/sheriff-of-lockwood/static/js/2.2680f6fb.chunk.js.map",
+    "index.html": "/sheriff-of-lockwood/index.html",
+    "precache-manifest.f2584a6b5a6da59019065330487be2d7.js": "/sheriff-of-lockwood/precache-manifest.f2584a6b5a6da59019065330487be2d7.js",
+    "service-worker.js": "/sheriff-of-lockwood/service-worker.js",
+    "static/css/main.0e96c88f.chunk.css.map": "/sheriff-of-lockwood/static/css/main.0e96c88f.chunk.css.map",
+    "static/js/2.2680f6fb.chunk.js.LICENSE.txt": "/sheriff-of-lockwood/static/js/2.2680f6fb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8eafaf45.js",
+    "static/js/2.2680f6fb.chunk.js",
+    "static/css/main.0e96c88f.chunk.css",
+    "static/js/main.37eeee06.chunk.js"
+  ]
+}
