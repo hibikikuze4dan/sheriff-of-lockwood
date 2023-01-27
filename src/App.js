@@ -5,6 +5,7 @@ import {
   Switch,
   Route,
   Redirect,
+  HashRouter
 } from "react-router-dom";
 import classNames from "classnames";
 
@@ -28,7 +29,7 @@ function App() {
   const classes = styles.appStyles();
   return (
     <div className={classNames(classes.div, "App")}>
-      <Router>
+      <HashRouter>
         <Navigator />
         <Switch>
           <Route path="/opening">
@@ -66,7 +67,7 @@ function App() {
           </Route>
           <Route render={() => <Redirect to="/opening" />} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 }

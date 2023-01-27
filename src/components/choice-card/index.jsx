@@ -63,7 +63,8 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
       classes={{ root: classes.button, label: classes.label }}
     >
       <Grid container>
-        {imageSection}
+        {/* TODO: Uncomment when you add back the right images */}
+        {/* {imageSection} */}
         <Grid item xs={12} style={{ paddingBottom: "1rem" }}>
           <Typography className={classes.title}>
             <Interweave content={choice.title} />
