@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/sheriff-of-lockwood/static/css/main.0e96c88f.chunk.css",
-    "main.js": "/sheriff-of-lockwood/static/js/main.37eeee06.chunk.js",
-    "main.js.map": "/sheriff-of-lockwood/static/js/main.37eeee06.chunk.js.map",
+    "main.js": "/sheriff-of-lockwood/static/js/main.895ad85a.chunk.js",
+    "main.js.map": "/sheriff-of-lockwood/static/js/main.895ad85a.chunk.js.map",
     "runtime-main.js": "/sheriff-of-lockwood/static/js/runtime-main.8eafaf45.js",
     "runtime-main.js.map": "/sheriff-of-lockwood/static/js/runtime-main.8eafaf45.js.map",
-    "static/js/2.2680f6fb.chunk.js": "/sheriff-of-lockwood/static/js/2.2680f6fb.chunk.js",
-    "static/js/2.2680f6fb.chunk.js.map": "/sheriff-of-lockwood/static/js/2.2680f6fb.chunk.js.map",
+    "static/js/2.e3584140.chunk.js": "/sheriff-of-lockwood/static/js/2.e3584140.chunk.js",
+    "static/js/2.e3584140.chunk.js.map": "/sheriff-of-lockwood/static/js/2.e3584140.chunk.js.map",
     "index.html": "/sheriff-of-lockwood/index.html",
-    "precache-manifest.f2584a6b5a6da59019065330487be2d7.js": "/sheriff-of-lockwood/precache-manifest.f2584a6b5a6da59019065330487be2d7.js",
+    "precache-manifest.315a6d658d2a34485ad0b51ecb5e3964.js": "/sheriff-of-lockwood/precache-manifest.315a6d658d2a34485ad0b51ecb5e3964.js",
     "service-worker.js": "/sheriff-of-lockwood/service-worker.js",
     "static/css/main.0e96c88f.chunk.css.map": "/sheriff-of-lockwood/static/css/main.0e96c88f.chunk.css.map",
-    "static/js/2.2680f6fb.chunk.js.LICENSE.txt": "/sheriff-of-lockwood/static/js/2.2680f6fb.chunk.js.LICENSE.txt"
+    "static/js/2.e3584140.chunk.js.LICENSE.txt": "/sheriff-of-lockwood/static/js/2.e3584140.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8eafaf45.js",
-    "static/js/2.2680f6fb.chunk.js",
+    "static/js/2.e3584140.chunk.js",
     "static/css/main.0e96c88f.chunk.css",
-    "static/js/main.37eeee06.chunk.js"
+    "static/js/main.895ad85a.chunk.js"
   ]
 }
