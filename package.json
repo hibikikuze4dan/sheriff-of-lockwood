@@ -2,6 +2,7 @@
   "name": "sheriff_of_lockwood",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hibikikuze4dan.github.io/sheriff-of-lockwood",
   "dependencies": {
     "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
@@ -11,6 +12,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "classnames": "^2.2.6",
+    "gh-pages": "^5.0.0",
     "immutable": "^4.0.0-rc.12",
     "interweave": "^12.5.0",
     "lodash": "^4.17.15",
@@ -26,6 +28,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
