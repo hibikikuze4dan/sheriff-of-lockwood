@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sheriff-of-lockwood/precache-manifest.315a6d658d2a34485ad0b51ecb5e3964.js"
+  "/sheriff-of-lockwood/precache-manifest.194197dc0cd457a414ca065323930a59.js"
 );
 
 self.addEventListener('message', (event) => {
