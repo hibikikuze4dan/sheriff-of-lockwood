@@ -42,6 +42,7 @@ const ChoiceCardList = ({
               <ChoiceCard
                 choice={choice}
                 handleClick={handleClick}
+                index={index}
                 picked={includes(decisions, choice.title)}
               />
             </GridListTile>

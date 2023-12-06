@@ -11,8 +11,12 @@ import Img from "react-image";
 
 import { extractRequirements } from "../../app/utils";
 import styles from "../../styles";
+import { useSelector } from "react-redux";
+import { getLocation } from "../../app/selectors";
+import { newImages } from "../../data/new-image-links";
 
-const ChoiceCard = ({ handleClick, choice, picked }) => {
+const ChoiceCard = ({ handleClick, choice, picked, index }) => {
+  const section = useSelector(getLocation);
   const classes = styles.cardStyles();
   const cost = choice?.cost;
   const src = choice?.src;
@@ -46,7 +50,7 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
         <Grid container justify="center">
           <Img
             style={{ height: "300px", width: "100%", objectFit: "fill" }}
-            src={src}
+            src={newImages?.[section]?.[index]}
             loader={<CircularProgress />}
             unloader={<CircularProgress />}
           />
@@ -64,7 +68,7 @@ const ChoiceCard = ({ handleClick, choice, picked }) => {
     >
       <Grid container>
         {/* TODO: Uncomment when you add back the right images */}
-        {/* {imageSection} */}
+        {imageSection}
         <Grid item xs={12} style={{ paddingBottom: "1rem" }}>
           <Typography className={classes.title}>
             <Interweave content={choice.title} />
